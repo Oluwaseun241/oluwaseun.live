@@ -56,11 +56,11 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://ko-fi.com/heycharlola"
+      url: "https://twitter.com/tanimola_jnr"
     - name: github
-      url: "https://github.com/charlola"
+      url: "https://github.com/Oluwaseun241"
     - name: linkedin
-      url: "https://www.linkedin.com/in/heycharlola/"
+      url: "https://www.linkedin.com/in/oluwaseun-tanimola-67705721b/"
 
     # add more social icons. find more in svg.html file
     # - name: youtube
