@@ -8,9 +8,12 @@ draft: false
 
 ## Intro
 
-We all know Golang has been in his prime for about 5yrs and picking it up is a good choice after a long ride with Python
-Picking Golang was not an easy task for me or anyone actually coming from a dynamically typed language though i had an ideal basics of C but was poised with Golang or Rust
-Picthing myself to go with Golang and let see how rough the terrain is......
+We all know Golang has been in his prime for about 5yrs and
+picking it up is a good choice after a long ride with Python Picking
+Golang was not an easy task for me or anyone coming from a
+dynamically typed language though I had an ideal basic of C but
+was poised with Golang or Rust Pitching myself to go with Golang
+and let see how rough the terrain is……
 
 ### Basics
 
