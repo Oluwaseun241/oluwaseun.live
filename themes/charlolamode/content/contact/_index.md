@@ -5,7 +5,7 @@ type: list
 
 
 #### Twitter
-If you have a short message or question, drop a message via [Twitter](https://www.linkedin.com/in/heycharlola/).
+If you have a short message or question, drop a message via [Twitter](https://twitter.com/tanimola_jnr)
 
 
 <!-- #### Email
