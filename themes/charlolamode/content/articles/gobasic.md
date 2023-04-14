@@ -54,3 +54,46 @@ maybe I will find out along the way or it’s my windows machine
 that is ditching the speed
 
 ### Control Stucture
+
+At least I'm aware of _if, for_ etc from the past but the edge i
+discover with Golang is the switch case, oh....I love the switch
+the case when I'm working with C one of the flaws in Python **(thou 
+all language tries to solve a particular problem but then 
+create some flaw)**. The control syntax was a replica of javascript
+**`for i := 1; i < 10; i++`** i can use some of my Js knowledge here too 
+
+Writing Golang is perfect and the simplicity is top-notch, and for 
+demo purpose I built a fizz-buzz
+
+### Arrays, Slices & Maps
+
+**Arrays** are the list of numbered sequences stored in a single typed 
+with a fixed length just like dictionary[] in Python
+
+**Slice** is a little bit complicated... it is a segment of an 
+array(indexable and have a flexible length)
+Go has a built-in function of slices:
+append and copy which both go by their name one works by 
+appending to the end of a slice and the other copy and takes
+**dst & src** arguments. All entries in src are copied into dst
+overwriting it and taking the length into consideration
+_(if the length of two slices are not the same the smallest one
+will be used)
+
+**Context**
+```
+func main() {
+    slice1 := []int{1,2,3}
+    slice2 := make([]int,2)
+    copy(slice2, slice1)
+    fmt.Println(slice1, slice2)
+}
+
+Output: slice1 = [1,2,3]
+            slice2 = [1,2]
+```
+**Maps** is an unordered collection of key-value pair
+_(technically overwhelming i still haven't get the hang of it)_
+
+### Day Three (Keep running)
+Practice
