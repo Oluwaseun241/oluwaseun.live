@@ -94,7 +94,7 @@ Output: slice1 = [1,2,3]
 ```
 **Maps** is an unordered collection of key-value pair
 _(technically overwhelming i still haven't get the hang of it)_
-perharps this should have me on a firm grip
+...perharps this should have me on a firm grip
 
 ```
 package main
