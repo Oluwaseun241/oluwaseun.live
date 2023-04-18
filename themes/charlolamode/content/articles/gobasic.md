@@ -68,7 +68,7 @@ demo purpose I built a fizz-buzz
 ### Arrays, Slices & Maps
 
 **Arrays** are the list of numbered sequences stored in a single typed 
-with a fixed length just like dictionary[] in Python
+with a fixed length just like List[] in Python
 
 **Slice** is a little bit complicated... it is a segment of an 
 array(indexable and have a flexible length)
