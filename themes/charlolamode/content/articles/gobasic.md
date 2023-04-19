@@ -119,6 +119,3 @@ func main() {
   fmt.Println("The smallest value is",smallest)
 }
 ```
-
-### Day Three (Keep running)
-Practice
