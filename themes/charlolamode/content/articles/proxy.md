@@ -16,7 +16,7 @@ proxy is the client
 _This does not expose the actual client to the server(Anonymous)_
 Its use case is generally for security purposes(blacklisting certain websites)
 but also can be used for Logging & Caching also is a thing
-![proxy](images/proxy.png)
+![proxy](../dev/proxy.png)
 
 ## Reverse Proxy
 
@@ -29,7 +29,7 @@ reverse proxy the request sent from the client is handled by the reverse proxy
 which will then direct the client request to another server(something like redirection)
 which is unknown to the client though
 And one of its uses case is Load balancing
-![reverse proxy](images/reverse-proxy.jpg)
+![reverse proxy](../dev/reverse-proxy.jpg)
 
 ## Load Balancer
 
