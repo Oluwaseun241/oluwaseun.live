@@ -1,0 +1,7254 @@
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <link rel="preconnect" href="https://cdn.cookielaw.org"/>
+        <link rel="dns-prefetch" href="https://cdn.cookielaw.org"/>
+        <link rel="preload" as="script" href="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"/>
+
+
+        
+        
+            <link rel="preload" as="script" href="/etc/designs/fortinet/adb-target/at.js"/>
+            <script>
+
+                   ;(function(win, doc, style, timeout) {
+                   var STYLE_ID = 'at-body-style';
+                   function getParent() {
+                      return doc.getElementsByTagName('head')[0];
+                   }
+                   function addStyle(parent, id, def) {
+                      if (!parent) {
+                      return;
+                      }
+                      var style = doc.createElement('style');
+                      style.id = id;
+                      style.innerHTML = def;
+                      parent.appendChild(style);
+                   }
+                   function removeStyle(parent, id) {
+                      if (!parent) {
+                      return;
+                      }
+                      var style = doc.getElementById(id);
+                      if (!style) {
+                      return;
+                      }
+                      parent.removeChild(style);
+                   }
+                   addStyle(getParent(), STYLE_ID, style);
+                   setTimeout(function() {
+                      removeStyle(getParent(), STYLE_ID);
+                   }, timeout);
+                   }(window, document, "body {opacity: 0 !important}", 3000));
+                </script>
+
+            <script type="text/plain" class="optanon-category-C0003" src="/etc/designs/fortinet/adb-target/at.js"></script>
+        
+        
+
+
+
+        
+
+        
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>What is a Proxy Server? Definition, Uses &amp; More | Fortinet</title>
+    <meta name="description" content="A proxy server stands between your computer and the internet. Learn what a proxy server is and how a web proxy server protects your data."/>
+    <meta name="keywords" content="Cloud Security"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@fortinet"/>
+    <meta name="twitter:title" content="What is a Proxy Server? Definition, Uses &amp; More | Fortinet"/>
+    <meta name="twitter:description" content="A proxy server stands between your computer and the internet. Learn what a proxy server is and how a web proxy server protects your data."/>
+    <meta name="twitter:image" content="https://www.fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg"/>
+    <meta property="og:title" content="What is a Proxy Server? Definition, Uses &amp; More | Fortinet"/>
+    <meta property="og:image" content="https://www.fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg"/>
+    <meta property="og:description" content="A proxy server stands between your computer and the internet. Learn what a proxy server is and how a web proxy server protects your data."/>
+    <meta property="og:site_name" content="Fortinet"/>
+<link rel="shortcut icon" href="/etc/designs/fortinet/favicon.ico?v=1"/>
+<link rel="apple-touch-icon" href="/content/dam/fortinet/images/favicon/apple-touch-icon.png" sizes="180x180"/>
+<link rel="icon" type="image/png" href="/content/dam/fortinet/images/favicon/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/content/dam/fortinet/images/favicon/favicon-16x16.png" sizes="16x16"/>
+<link rel="mask-icon" href="/content/dam/fortinet/images/favicon/safari-pinned-tab.svg" color="#da291c"/>
+<link rel="icon" type="image/png" href="/content/dam/fortinet/images/favicon/android-chrome-192x192.png" sizes="192x192"/>
+<link rel="icon" type="image/png" href="/content/dam/fortinet/images/favicon/android-chrome-512x512.png" sizes="512x512"/>
+<link rel="icon" href="/content/dam/fortinet/images/favicon/favicon.ico"/>
+    
+    
+    <meta property="og:locale" content="en_us"/>
+    <link rel="canonical" href="https://www.fortinet.com/resources/cyberglossary/proxy-server"/>
+    <link rel="alternate" href="https://www.fortinet.com/resources/cyberglossary/proxy-server" hreflang="en-us"/>
+        <link rel="alternate" href="https://www.fortinet.com/de/resources/cyberglossary/proxy-server" hreflang="de-de"/>
+        <link rel="alternate" href="https://www.fortinet.com/fr/resources/cyberglossary/proxy-server" hreflang="fr-fr"/>
+        <link rel="alternate" href="https://www.fortinet.com/it/resources/cyberglossary/proxy-server" hreflang="it-it"/>
+        <link rel="alternate" href="https://www.fortinet.com/ru/resources/cyberglossary/proxy-server" hreflang="ru-ru"/>
+        <link rel="alternate" href="https://www.fortinet.com/br/resources/cyberglossary/proxy-server" hreflang="pt-br"/>
+        <link rel="alternate" href="https://www.fortinet.com/lat/resources/cyberglossary/proxy-server" hreflang="es"/>
+        <link rel="alternate" href="https://www.fortinet.com/cn/resources/cyberglossary/proxy-server" hreflang="zh-hans-cn"/>
+        <link rel="alternate" href="https://www.fortinet.com/tw/resources/cyberglossary/proxy-server" hreflang="zh-tw"/>
+        <link rel="alternate" href="https://www.fortinet.com/kr/resources/cyberglossary/proxy-server" hreflang="ko-kr"/>
+        
+    
+<meta property="og:url" content="/resources/cyberglossary/proxy-server"/>
+        
+
+<link rel="stylesheet" href="/etc/designs/fortinet/clientlib-all.min.v3.css" type="text/css"/>
+
+
+
+
+
+
+
+    <script>
+        window.configData= {"pageDetails":{"pageTitle":"Proxy-server"}};
+    </script>
+
+
+
+<!-- OneTrust Cookies Consent Notice start for fortinet.com -->
+
+
+
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="f85f39fc-d7aa-467a-b762-fbb722748016"></script>
+    <script type="text/javascript">
+
+function OptanonWrapper() {
+    {
+
+        window.dataLayer.push({
+            event: 'OneTrustGroupsUpdated'
+        });
+        Optanon.InsertScript('//assets.adobedtm.com/launch-EN23cb8375449840dc93b13f34d935b8b9.min.js','head',null, null, '1',true);
+
+    }
+}
+
+</script>
+
+
+<!-- OneTrust Cookies Consent Notice end for fortinet.com -->
+
+
+
+
+        
+            <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is a proxy server?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does a proxy server work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because a proxy server has its own IP address, it acts as a go-between for a computer and the internet. Your computer knows this address, and when you send a request on the internet, it is routed to the proxy, which then gets the response from the web server and forwards the data from the page to your computer’s browser, like Chrome, Safari, Firefox, or Microsoft Edge."
+   }
+  },{
+    "@type": "Question",
+    "name": "Proxy server vs. VPN?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On the surface, proxy servers and virtual private networks (VPNs) may seem interchangeable because they both route requests and responses through an external server. Both also allow you to access websites that would otherwise block the country you’re physically located in. However, VPNs provide better protection against hackers because they encrypt all traffic."
+   }
+  },{
+    "@type": "Question",
+    "name": "What are benefits of a proxy server?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The benefits of a proxy server include enhanced security, private browsing, watching, and listening, access to location-specific content, and preventing employee from browsing inappropriate or distracting sites."
+    }
+  }]
+}
+</script>
+            <!-- Bright Edge integration header : start -->
+            
+            
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="java_sdk_1.6.7" />
+<meta name="be:timer" content="44ms" />
+<meta name="be:norm_url" content="https://www.fortinet.com/resources/cyberglossary/proxy-server" />
+<meta name="be:capsule_url" content="https://ixfd-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000216283/938355771" />
+<meta name="be:api_dt" content="pny_2023; pnm_05; pnd_30; pnh_15; pnmh_15; pn_epoch:1685484947857" />
+<meta name="be:mod_dt" content="pny_1969; pnm_12; pnd_31; pnh_16; pnmh_00; pn_epoch:0" />
+<meta name="be:orig_url" content="https://www.fortinet.com/resources/cyberglossary/proxy-server" />
+<meta name="be:messages" content="343155" /><style>
+.be-ix-link-block{clear:both}
+.be-ix-link-block .be-related-link-container{padding-bottom:20px}
+.be-ix-link-block .be-related-link-container .be-label,.be-ix-link-block .be-related-link-container .be-list{font-size:.7619rem;font-family:"HelveticaNeueW01-75Bold",Helvetica,Arial,sans-serif}
+.be-ix-link-block .be-related-link-container .be-label{margin:0;color:#5a646c}
+.be-ix-link-block .be-related-link-container .be-list{list-style:none;margin:0;padding:0}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{margin:0;padding:0;font-family:"HelveticaNeueW01-45Roma",Helvetica,Arial,sans-serif;font-size:.7619rem}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item a{color:#5a646c;font-family:"HelveticaNeueW01-45Roma",Helvetica,Arial,sans-serif}
+@media (max-width: 767px) {
+.be-ix-link-block .be-related-link-container{padding:0 10px}
+.be-ix-link-block .be-related-link-container .be-label{width:100%}
+.be-ix-link-block .be-related-link-container .be-list{display:block;width:100%}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{display:block}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item:last-child{margin-bottom:0}
+}
+@media (min-width: 768px) {
+.be-ix-link-block .be-related-link-container{display:flex}
+.be-ix-link-block .be-related-link-container .be-label{display:inline-block;margin-right:20px;flex-basis:130px;flex-grow:0;flex-shrink:0}
+.be-ix-link-block .be-related-link-container .be-list{display:inline-block;width:auto}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{display:inline-block;margin-right:20px}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item:last-child{margin-right:0}
+}
+</style>
+
+
+<script data-cfasync="false" id="marvel" data-customerid="f00000000216283" src="https://marvel-b2-cdn.bc0a.com/marvel.js"></script>
+
+            
+            <!-- Bright Edge integration header : end -->
+        
+    </head>
+    <body class="page  ">
+    
+    <div class="skip-nav">
+        <a href="#CONTENT" data-a11y-anchor>Skip to content</a>
+
+        <a href="#HEADER" data-a11y-anchor>Skip to navigation</a>
+        <a href="#FOOTER" data-a11y-anchor>Skip to footer</a>
+    </div>
+    
+        <script type="text/javascript">
+            var utag_data = {
+        }
+        </script>
+    
+
+    <div class="page--container">
+        
+<!-- Header Include through EF dynamically -->
+<div class="xfpage page basicpage">
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+
+
+    
+    
+    <div class="C858-Header">
+
+
+
+
+
+<header class="ftnt-navigation">
+    <nav id="top-nav">
+        <div class="container">
+            <ul class="top-toolbar nav-right">
+                <!-- Alert Bar -->
+                <li class="threat-alert">
+                    <a href="/fortiguard/outbreak-alert#latest-outbreak" target="_self">
+                        <p>Fortiguard Threat Alert: TP-Link Archer AX-21 Command Injection Attack</p>
+
+                    </a>
+                </li>
+                <!-- Fortinet One -->
+                <li class="fortinet-one notloggedin-demo">
+
+                    <a href="/demo-center"><button>Free Product Demo</button></a>
+                </li>
+                <!-- Forticare Menu Services -->
+                <li class="menu-item fc-menu fc-menu-show-after-loggedin" id="fc-menu-services" style="display:none;">
+                    <div class="fc-menu-label">
+                        <button>Services</button>
+                    </div>
+                    <div class="fc-menu-wrap" id="fc-menu-services-wrap"></div>
+                </li>
+
+                <!-- Drop down for discover more -->
+                
+                
+    
+        <li class="fortinet-one notloggedin-support">
+            <a href="#"> <button><span>Get Support</span></button></a>
+            <div class="fortinet-one-dropdown">
+                
+                    
+                        <a href="/corporate/about-us/contact-us/experienced-a-breach" target="_self">
+                            Experienced a Breach?
+                        </a>
+                    
+
+                
+                    
+                        <a href="/support" target="_self">
+                            FortiCare Support Services
+                        </a>
+                    
+
+                
+                    
+                        <a href="/demo-center" target="_self">
+                            Product Demo Center
+                        </a>
+                    
+
+                
+                    
+                        <a href="/support/product-downloads" target="_self">
+                            Product Downloads
+                        </a>
+                    
+
+                
+                    
+                        <a href="https://support.fortinet.com/asset" target="_blank">
+                            Product Registration
+                        </a>
+                    
+
+                
+                    
+                        <a href="https://docs.fortinet.com" target="_blank">
+                            Documents Library
+                        </a>
+                    
+
+                
+                    
+                        <a href="https://community.fortinet.com/?pageNum=1" target="_blank">
+                            Fortinet Community
+                        </a>
+                    
+
+                
+                    
+                        <a href="/support/contact" target="_self">
+                            Contact Support
+                        </a>
+                    
+
+                
+                    
+                        <a href="https://answers.fortinet.com/index.html" target="_blank">
+                            FortiAnswers
+                        </a>
+                    
+
+                
+            </div>
+        </li>
+    
+
+
+                <!-- Support Menu after logged in-->
+                <li class="menu-item fc-menu fc-menu-show-after-loggedin" id="fc-menu-support" style="display:none;">
+                    <div class="fc-menu-label">
+                        <button>Support</button>
+                    </div>
+                    <div class="fc-menu-wrap" id="fc-menu-support-wrap"></div>
+                </li>
+
+                <!-- Forticare login button -->
+                <li class="fc-menu" id="fc-menu-user">
+                    <div class="fc-menu-hide-after-loggedin">
+                        <a class="login-tooltip" href="https://site.fortinet.com/one/login" aria-label="FortiCloud login"><span class="tooltiptext">Login to FortiCloud</span>
+                            <svg id="Layer_account" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.92 128" width="21" height="21"><path class="cls-1" d="M54.46,70.76A35.38,35.38,0,1,1,89.84,35.38,35.42,35.42,0,0,1,54.46,70.76Z"></path><path class="cls-1" d="M108.92,128H0V107.61A24.95,24.95,0,0,1,24.93,82.68H84a24.61,24.61,0,0,1,8.43,1.48,25,25,0,0,1,16.5,23.45Z"></path></svg></a>
+                    </div>
+                    <div class="fc-menu-show-after-loggedin" style="display: none;">
+                        <span id="fc-menu-loggedin-user">username</span>
+                        <div class="login-icon">
+                            <svg id="Layer_account" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.92 128" width="21" height="21"><path class="cls-1" d="M54.46,70.76A35.38,35.38,0,1,1,89.84,35.38,35.42,35.42,0,0,1,54.46,70.76Z"></path><path class="cls-1" d="M108.92,128H0V107.61A24.95,24.95,0,0,1,24.93,82.68H84a24.61,24.61,0,0,1,8.43,1.48,25,25,0,0,1,16.5,23.45Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="fc-menu-wrap" id="fc-menu-user-wrap"></div>
+                </li>
+
+
+                <!-- Search button-->
+                <li class="search-toggle">
+                    <form id="sitesearch" action="/search" method="get">
+                        <button aria-label="Search Toggle" aria-expanded="false" aria-controls="search">
+                            <svg id="Layer_search" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.82 139.77" width="21" height="21"><path class="cls-1" d="M120.76,136.84l-37-37L97.86,85.68l37,37a10,10,0,0,1,0,14.13h0A10,10,0,0,1,120.76,136.84Z"></path><path class="cls-1" d="M56,112a56,56,0,1,1,56-56A56.08,56.08,0,0,1,56,112Zm0-99A43,43,0,1,0,99,56,43,43,0,0,0,56,13Z"></path></svg>
+                        </button>
+                        <label for="search">Search</label>
+                        <input id="search" name="q" type="text" class="hidden" placeholder="Search"/>
+                        
+                            
+                                <input type="hidden" name="site" id="site" disabled value="https://www.fortinet.com"/>
+                            
+                            
+
+                            
+                        
+
+                    </form>
+                </li>
+
+                <!-- Language Drop Down-->
+                <li class="select-language">
+                    <button aria-label="Select a Language">
+                        <svg id="Layer_planet" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.1 175.12" width="21" height="21"><path class="cls-1" d="M87.55,0A87.54,87.54,0,0,0,6.4,120.4a3.85,3.85,0,0,0,.6,1.45A87.55,87.55,0,1,0,87.55,0ZM167,83.56H142.62a101.86,101.86,0,0,0-8.86-39.88A129.05,129.05,0,0,1,161.63,58.6,78.8,78.8,0,0,1,167,83.56Zm-83.39,0H40.8a104.33,104.33,0,0,1,5.13-25.42,125.09,125.09,0,0,1,8-18.75,114.35,114.35,0,0,1,29.68-4.83Zm0,8v49.21a123.94,123.94,0,0,1-25.79-3.6q-2.66-.66-5.19-1.41a94.21,94.21,0,0,1-12.05-44.2Zm8,0h42.8a104.68,104.68,0,0,1-5.12,25.17,124,124,0,0,1-8.15,19,115.46,115.46,0,0,1-29.53,5Zm37.53-8H91.61v-49a124.68,124.68,0,0,1,25.12,3.62c2.17.53,4.27,1.12,6.32,1.74a93.9,93.9,0,0,1,11.59,43.6Zm25.31-39a146.79,146.79,0,0,0-25.92-11.3A136.08,136.08,0,0,0,114,12.52,80,80,0,0,1,154.45,44.59ZM99.94,9.16a146.44,146.44,0,0,1,17.17,20.92,131.22,131.22,0,0,0-25.5-3.39V8.12a78.36,78.36,0,0,1,8.15.82C99.82,9,99.87,9.09,99.94,9.16ZM75.48,8.92a77.7,77.7,0,0,1,8.13-.81V26.68A124,124,0,0,0,59.45,29.8,129.87,129.87,0,0,1,75.24,9.2C75.33,9.11,75.4,9,75.48,8.92ZM61.85,12.29A150.23,150.23,0,0,0,48.16,33,137.87,137.87,0,0,0,19.58,46.27,79.9,79.9,0,0,1,61.85,12.29Zm-49,48a4.16,4.16,0,0,0,.71-.4A141.12,141.12,0,0,1,43,43.27c-1.7,3.8-3.29,7.82-4.7,12a110.67,110.67,0,0,0-5.55,28.24H8.1A79.21,79.21,0,0,1,12.82,60.28ZM8.1,91.56H32.61a101.94,101.94,0,0,0,9.26,40.55,127.86,127.86,0,0,1-28.15-15A79.24,79.24,0,0,1,8.1,91.56Zm13.09,39.8a143.56,143.56,0,0,0,26,11.18,138,138,0,0,0,14.38,20.21A79.91,79.91,0,0,1,21.19,131.36Zm54.09,34.35a147.91,147.91,0,0,1-16.59-20.07,129.47,129.47,0,0,0,24.92,3.1V167c-2.67-.14-5.31-.39-7.91-.78A3.42,3.42,0,0,0,75.28,165.71Zm24.25.5a79.24,79.24,0,0,1-7.92.79V148.69a125.76,125.76,0,0,0,23.9-3.22A128.24,128.24,0,0,1,100,165.67,3.71,3.71,0,0,0,99.53,166.21Zm13.61-3.34a149.93,149.93,0,0,0,13.72-20.6A142.1,142.1,0,0,0,155.44,129,80,80,0,0,1,113.14,162.87Zm49.1-47.9a3.93,3.93,0,0,0-.83.45,145.66,145.66,0,0,1-29.33,16.42c1.74-3.88,3.37-8,4.81-12.29a110.76,110.76,0,0,0,5.53-28H167A79.07,79.07,0,0,1,162.24,115Z"></path></svg>
+                    </button>
+                    <ul>
+                        <li>
+                            <a href="https://www.fortinet.com" lang="en">
+                                <span>USA (English)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/de" lang="de">
+                                <span>Germany (Deutsch)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/fr" lang="fr">
+                                <span>France (Français)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/it" lang="it">
+                                <span>Italy (Italiano)</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://www.fortinet.com/lat" lang="es">
+                                <span>Latin America<br/> (Español)</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.fortinet.com/cn" lang="zh">
+                                <span>China (简体中文)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/tw" lang="zh">
+                                <span>Taiwan (繁體中文)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/kr" lang="kr">
+                                <span>Korea (한국어)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/jp" lang="jp">
+                                <span>Japan (日本語)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.fortinet.com/br" lang="pt">
+                                <span>Brazil (Portugués)</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <nav id="main-nav">
+        <div class="container">
+            <div class="mobile-nav">
+                <button class="nav-trigger23" aria-label="Mobile menu" aria-controls="nav-mobile" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="m-logo">
+                <a href="https://www.fortinet.com" aria-label="Fortinet Logo">
+                    <img src="/content/dam/fortinet/images/general/fortinet-logo.svg" alt="Fortinet home"/>
+                </a>
+            </div>
+
+            <ul class="nav-left" aria-label="main menu">
+                <li class="logo">
+                    <a href="https://www.fortinet.com" aria-label="Fortinet Logo">
+                        <img src="/content/dam/fortinet/images/general/fortinet-logo.svg" alt="Fortinet home"/>
+                    </a>
+                </li>
+                
+
+
+
+    <li class="main-nav-item">
+        <button aria-label="Products Menu">Products</button>
+        <div class="megamenu">
+            <div class="container">
+                <ul class="nav-vertical">
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Network Security Menu">Network Security</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Hybrid Mesh Firewall</div>
+
+<ul>
+    <li>
+        <a href="/products/next-generation-firewall" target="_self">
+            Next-Generation Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/private-cloud-security/fortigate-virtual-appliances" target="_self">
+            Virtual Next-Generation Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/public-cloud-security/cloud-native-firewall" target="_self">
+            Cloud-Native Firewall
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Single Vendor SASE</div>
+
+<ul>
+    <li>
+        <a href="/products/sase" target="_self">
+            Secure Access Service Edge (SASE)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/sd-wan" target="_self">
+            Secure SD-WAN
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Zero Trust Access</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/network-access/application-access" target="_self">
+            Zero Trust Network Access (ZTNA)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/network-access-control" target="_self">
+            Network Access Control (NAC)
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">NOC Management</div>
+
+<ul>
+    <li>
+        <a href="/products/management/fortimanager" target="_self">
+            Central Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortimonitor" target="_self">
+            Digital Experience Monitoring
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/casb" target="_self">
+            CASB
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/web-filtering" target="_self">
+            URL Filtering
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/intrusion-prevention" target="_self">
+            Intrusion Prevention Service (IPS)
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/dns-security" target="_self">
+            DNS Filtering
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/inline-sandboxing" target="_self">
+            Inline Sandbox
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/iot" target="_self">
+            IoT Detection
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-64a.png"/>
+            </figure></a>
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <div class="title"> Fortinet Achieves a 99.88% Security Effectiveness Score in 2023 CyberRatings </div></a>
+        <p>FortiGate NGFW earned the highest ranking of ‘AAA’ showcasing low cost of ownership and high ROI in the Enterprise Firewall Report. </p>
+        
+    
+    
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Enterprise Networking Menu">Enterprise Networking</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">SD-WAN</div>
+
+<ul>
+    <li>
+        <a href="/products/sd-wan" target="_self">
+            Secure SD-WAN
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/wireless-wan-fortiextender" target="_self">
+            LTE/5G Gateway
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">LAN</div>
+
+<ul>
+    <li>
+        <a href="/products/ethernet-switches" target="_self">
+            Switching
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/wireless-access-points" target="_self">
+            Wireless LAN (WLAN)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortilan-cloud" target="_self">
+            Cloud-based LAN Management
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Communications &amp; Surveillance</div>
+
+<ul>
+    <li>
+        <a href="/products/business-phone-systems/fortivoice-fortifone" target="_self">
+            Voice &amp; Collaboration
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/network-based-video-security/forticam-fortirecorder" target="_self">
+            Video Surveillance
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">NOC Management</div>
+
+<ul>
+    <li>
+        <a href="/products/management/fortimanager" target="_self">
+            Central Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortimonitor" target="_self">
+            Digital Experience Monitoring
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortiaiops" target="_self">
+            Artificial Intelligence for IT Operations
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/gartner-wan-edge" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-50.jpg"/>
+            </figure></a>
+        <a href="/solutions/gartner-wan-edge" target="_self">
+            <div class="title"> One. Two. And Now THREE! </div></a>
+        <p>Fortinet has been named a Leader in the 2022 Gartner® Magic Quadrant™ for SD-WAN for 3 years in a row. </p>
+        
+    
+    
+        <a href="/solutions/gartner-wan-edge" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-purple ">
+        
+            <button aria-label="Endpoint Security Menu">Endpoint Security</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Endpoint Security</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/endpoint-protection" target="_self">
+            Endpoint Security Solutions
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/endpoint-security/fortiedr" target="_self">
+            Endpoint Detection &amp; Response (EDR)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortixdr" target="_self">
+            Extended Detection &amp; Response (XDR)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Secure Endpoint Connectivity</div>
+
+<ul>
+    <li>
+        <a href="/products/endpoint-security/forticlient" target="_self">
+            Security Agent (FortiClient)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Identity</div>
+
+<ul>
+    <li>
+        <a href="/products/identity-access-management" target="_self">
+            Identity Access Management (IAM)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortitrust-identity" target="_self">
+            Identity as-a-Service
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortipam" target="_self">
+            Privileged Access Management
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Expert Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/mdr" target="_self">
+            Managed Detection &amp; Response (MDR)
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/socaas" target="_self">
+            SOC-as-a-Service (SOCaaS)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/gartner-mq-endpoint-protection" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-53.png"/>
+            </figure></a>
+        <a href="/solutions/gartner-mq-endpoint-protection" target="_self">
+            <div class="title"> 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms </div></a>
+        <p>Fortinet has been named a Visionary in the 2022 Gartner® Magic Quadrant™ for Endpoint Protection Platforms (EPP). </p>
+        
+    
+    
+        <a href="/solutions/gartner-mq-endpoint-protection" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-teal ">
+        
+            <button aria-label="Security Operations Menu">Security Operations</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Security Operations Platforms</div>
+
+<ul>
+    <li>
+        <a href="/products/management/fortianalyzer" target="_self">
+            Security Fabric Analytics
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/siem/fortisiem" target="_self">
+            Security Information &amp; Event Management (SIEM/UEBA)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortisoar" target="_self">
+            Security Orchestration, Automation, &amp; Response (SOAR/TIM)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortixdr" target="_self">
+            Extended Detection and Response (XDR)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Early Detection &amp; Prevention</div>
+
+<ul>
+    <li>
+        <a href="/products/network-detection-and-response" target="_self">
+            Network Detection &amp; Response (NDR)
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortideceptor" target="_self">
+            Deception Technology
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortirecon" target="_self">
+            Digital Risk Protection Systems (DRPS)
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/inline-sandboxing" target="_self">
+            Inline Sandbox
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/endpoint-protection" target="_self">
+            Endpoint Security Solutions
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Expert Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/respond" target="_self">
+            Incident Response
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/security-advisory" target="_self">
+            Security Advisory Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/ransomware-advisory" target="_self">
+            Ransomware Advisory Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/mdr" target="_self">
+            Managed Detection &amp; Response (MDR)
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/socaas" target="_self">
+            SOC-as-a-Service (SOCaaS)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/gartner-magic-quadrant-siem" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-41.jpg"/>
+            </figure></a>
+        <a href="/solutions/gartner-magic-quadrant-siem" target="_self">
+            <div class="title"> Fortinet Named a Challenger in the 2022 Gartner® Magic Quadrant™ for SIEM </div></a>
+        <p>FortiSIEM delivers improved visibility and enhanced security analytics for increasingly complex IT and OT ecosystems. </p>
+        
+    
+    
+        <a href="/solutions/gartner-magic-quadrant-siem" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Operational Technology Menu">Operational Technology</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/ot-security" target="_self">
+            Secure Operational Technology
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Products</div>
+
+<ul>
+    <li>
+        <a href="/products/rugged-firewall" target="_self">
+            Ruggedized Network Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/siem/fortisiem" target="_self">
+            Security Information &amp; Event Management (SIEM/UEBA)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortisoar" target="_self">
+            Security Orchestration, Automation, &amp; Response (SOAR/TIM)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortipam" target="_self">
+            Privileged Access Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/ethernet-switches" target="_self">
+            Secure Ethernet Switches
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/endpoint-security/fortiedr" target="_self">
+            Endpoint Detection &amp; Response (EDR)
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/industrial-security" target="_self">
+            Industrial Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/iot" target="_self">
+            IoT Detection
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/inline-sandboxing" target="_self">
+            Inline Sandbox
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/intrusion-prevention" target="_self">
+            Intrusion Prevention Service (IPS)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Expert Services</div>
+
+<ul>
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/socaas" target="_self">
+            SOC-as-a-Service (SOCaaS)
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/assess" target="_self">
+            OT Tabletop Exercise
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-67.jpeg"/>
+            </figure></a>
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <div class="title"> 2023 State of Operational Technology and Cybersecurity Report </div></a>
+        <p>Fortinet Global Report Finds 75% of OT Organizations Experienced at Least One Intrusion in the Last Year </p>
+        
+    
+    
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-blue ">
+        
+            <button aria-label="Application Security Menu">Application Security</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cloud Network Security</div>
+
+<ul>
+    <li>
+        <a href="/products/private-cloud-security/fortigate-virtual-appliances" target="_self">
+            Virtual Network Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/public-cloud-security/cloud-native-firewall" target="_self">
+            Cloud-Native Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/ddos/fortiddos" target="_self">
+            Distributed Denial of Service Protection
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Web Application / API Protection</div>
+
+<ul>
+    <li>
+        <a href="/products/web-application-firewall/fortiweb" target="_self">
+            Web Application Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/application-delivery-controller/fortiadc" target="_self">
+            Application Delivery &amp; Server Load Balancing
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/dynamic-application-security-testing" target="_self">
+            Dynamic Application Security Testing (DAST)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Secure Email</div>
+
+<ul>
+    <li>
+        <a href="/products/email-security" target="_self">
+            Email Security
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cloud-Native Protection</div>
+
+<ul>
+    <li>
+        <a href="/products/public-cloud-security/cloud-native-protection" target="_self">
+            Workload Protection &amp; Cloud Security Posture Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortidevsec" target="_self">
+            DevSecOps
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cloud Service Providers</div>
+
+<ul>
+    <li>
+        <a href="/products/public-cloud-security/aws" target="_self">
+            AWS
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/public-cloud-security/azure" target="_self">
+            Microsoft Azure
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/public-cloud-security/gcp" target="_self">
+            Google Cloud
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/public-cloud-security/OracleCloud" target="_self">
+            Oracle
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="https://global.fortinet.com/lp-en-ap-2023cloudsecurityreport" target="_blank">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-58.jpg"/>
+            </figure></a>
+        <a href="https://global.fortinet.com/lp-en-ap-2023cloudsecurityreport" target="_blank">
+            <div class="title"> 2023 Cloud Security Report </div></a>
+        <p>Discover why 95% of organizations are moderately to extremely concerned about cloud security in 2023. </p>
+        
+    
+    
+        <a href="https://global.fortinet.com/lp-en-ap-2023cloudsecurityreport" target="_blank" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    
+    
+        
+
+        <li class="nav-all-products">
+            <a href="/products" target="_self">View All Products</a>
+        </li>
+    
+
+
+
+
+
+                </ul>
+                <div class="nav-vertical-content"></div>
+            </div>
+        </div>
+    </li>
+
+    <li class="main-nav-item">
+        <button aria-label="Solutions Menu">Solutions</button>
+        <div class="megamenu">
+            <div class="container">
+                <ul class="nav-vertical">
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Enterprise Menu">Enterprise</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Featured</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/network-security" target="_self">
+            Secure Networking
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/work-from-anywhere" target="_self">
+            Work From Anywhere
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/cloud-security" target="_self">
+            Secure Application Journey
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/ot-security" target="_self">
+            Secure Operational Technology
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-operations" target="_self">
+            Security Operations
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Platform</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-fabric" target="_self">
+            Fortinet Security Fabric
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortigate/fortios" target="_self">
+            FortiOS
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-64a.png"/>
+            </figure></a>
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <div class="title"> Fortinet Achieves a 99.88% Security Effectiveness Score in 2023 CyberRatings </div></a>
+        <p>FortiGate NGFW earned the highest ranking of ‘AAA’ showcasing low cost of ownership and high ROI in the Enterprise Firewall Report. </p>
+        
+    
+    
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Small &amp; Midsize Business Menu">Small &amp; Midsize Business</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/solutions/small-business" target="_self">
+            Complete Protection
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/small-business/network-security" target="_self">
+            Network Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/small-business/endpoint-protection" target="_self">
+            Endpoint Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/small-business/secure-applications-cloud" target="_self">
+            Securing Cloud Applications &amp; Email
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Products</div>
+
+<ul>
+    <li>
+        <a href="/solutions/small-business/firewall" target="_self">
+            Network Firewalls
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/smallbusiness/fortigate-cloud" target="_self">
+            Management &amp; Reporting
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/email-security" target="_self">
+            Email Security
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Use Cases</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/network-access/teleworker-work-remote" target="_self">
+            Teleworking at Scale
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-64a.png"/>
+            </figure></a>
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self">
+            <div class="title"> Fortinet Achieves a 99.88% Security Effectiveness Score in 2023 CyberRatings </div></a>
+        <p>FortiGate NGFW earned the highest ranking of ‘AAA’ showcasing low cost of ownership and high ROI in the Enterprise Firewall Report. </p>
+        
+    
+    
+        <a href="/solutions/cyberratings-enterprise-firewall" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Operational Technology Menu">Operational Technology</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/ot-security" target="_self">
+            Secure Operational Technology
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Products</div>
+
+<ul>
+    <li>
+        <a href="/products/rugged-firewall" target="_self">
+            Ruggedized Network Firewall
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/siem/fortisiem" target="_self">
+            Security Information &amp; Event Management (SIEM/UEBA)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortisoar" target="_self">
+            Security Orchestration, Automation, &amp; Response (SOAR/TIM)​
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/fortipam" target="_self">
+            Privileged Access Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/ethernet-switches" target="_self">
+            Secure Ethernet Switches
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/endpoint-security/fortiedr" target="_self">
+            Endpoint Detection &amp; Response (EDR)
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/industrial-security" target="_self">
+            Industrial Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/iot" target="_self">
+            IoT Detection
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/inline-sandboxing" target="_self">
+            Inline Sandbox
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/intrusion-prevention" target="_self">
+            Intrusion Prevention Service (IPS)
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Expert Services</div>
+
+<ul>
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/socaas" target="_self">
+            SOC-as-a-Service (SOCaaS)
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/assess" target="_self">
+            OT Tabletop Exercise
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-67.jpeg"/>
+            </figure></a>
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <div class="title"> 2023 State of Operational Technology and Cybersecurity Report </div></a>
+        <p>Fortinet Global Report Finds 75% of OT Organizations Experienced at Least One Intrusion in the Last Year </p>
+        
+    
+    
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Industries Menu">Industries</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">IT/OT</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/ot-security" target="_self">
+            Operational Technology
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/manufacturing" target="_self">
+            Manufacturing
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/scada-industrial-control-systems" target="_self">
+            SCADA/ICS
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/oil-gas" target="_self">
+            Oil &amp; Gas
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/power-utilities" target="_self">
+            Power Utilities
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Health and Medical</div>
+
+<ul>
+    <li>
+        <a href="/solutions/industries/healthcare" target="_self">
+            Healthcare
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/pharma" target="_self">
+            Pharmaceutical
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Education</div>
+
+<ul>
+    <li>
+        <a href="/solutions/industries/higher-ed" target="_self">
+            Higher Education
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/education/k12" target="_self">
+            K–12 School Districts
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Consumer</div>
+
+<ul>
+    <li>
+        <a href="/solutions/industries/financial-services" target="_self">
+            Financial Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/retail" target="_self">
+            Retail
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/hospitality" target="_self">
+            Hospitality
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">All Industries</div>
+
+<ul>
+    <li>
+        <a href="/solutions/industries" target="_self">
+            View All
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-67.jpeg"/>
+            </figure></a>
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self">
+            <div class="title"> 2023 State of Operational Technology and Cybersecurity Report </div></a>
+        <p>Fortinet Global Report Finds 75% of OT Organizations Experienced at Least One Intrusion in the Last Year </p>
+        
+    
+    
+        <a href="/demand/gated/report-state-ot-cybersecurity" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+        <!-- Subcategory Start -->
+        
+
+
+
+    <li class="has-sub-nav">
+        <button aria-label="Service Providers Menu">Service Providers</button>
+        <div class="v-container">
+            <div class="col-md-4">
+                <ul class="sub-vertical-tab">
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Managed Services Menu">Managed Services</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                    
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Solutions</div>
+
+<ul>
+    <li>
+        <a href="/solutions/service-provider/communications-service-provider/mssp" target="_self">
+            MSSP Cybersecurity
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/service-provider/managed-secure-sd-wan-service-with-fortinet" target="_self">
+            Managed SD-WAN for Service Providers
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/service-provider/communications-service-provider/mssp?tab=use-case-2" target="_self">
+            Managed SOC Service
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/service-provider/communications-service-provider/mssp?tab=use-case-3" target="_self">
+            Managed Cloud Security Service
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/service-provider/communications-service-provider/mssp?tab=use-case-4" target="_self">
+            Managed WAF Service
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Case Studies</div>
+
+<ul>
+    <li>
+        <a href="/customers/orange-business-services" target="_self">
+            Orange Business Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/customers/gtt-communications" target="_self">
+            GTT Communications
+        </a>
+    </li>
+
+    <li>
+        <a href="/customers/spark-nz" target="_self">
+            Spark NZ
+        </a>
+    </li>
+
+    <li>
+        <a href="/customers?limit=15&region=&industry=service-provider&solutions=" target="_self">
+            View All
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Communication Service Providers Menu">Communication Service Providers</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                    
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Solutions</div>
+
+<ul>
+    <li>
+        <a href="/solutions/industries/communications-service-provider" target="_self">
+            Overview
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider?tab=use-case-1" target="_self">
+            Headquarters Network Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider?tab=use-case-2" target="_self">
+            PCI Compliance
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider?tab=use-case-3" target="_self">
+            Secure Networking
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider?tab=use-case-4" target="_self">
+            ATP
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider?tab=use-case-5" target="_self">
+            Adaptive Cloud Security
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-annual-skills-gap-report-uncovers-increase-breaches-attributed-to-lack-of-cybersecurity-skills" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-57.jpg"/>
+            </figure></a>
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-annual-skills-gap-report-uncovers-increase-breaches-attributed-to-lack-of-cybersecurity-skills" target="_self">
+            <div class="title"> 2023 Cybersecurity Skills Gap Global Research Report </div></a>
+        <p>Cyberthreats are increasing in volume and sophistication while organizations around the world struggle to fill security positions. </p>
+        
+    
+    
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-annual-skills-gap-report-uncovers-increase-breaches-attributed-to-lack-of-cybersecurity-skills" target="_self" class="cta">Read the Press Release</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Mobile Provider Menu">Mobile Provider</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                    
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/solutions/mobile-carrier/cybersecurity-for-mobile-networks-and-ecosystems" target="_self">
+            Cybersecurity for Mobile Networks and Ecosystems
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-6">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="https://global.fortinet.com/emea-lp-en-service-provider-energy-paper" target="_blank">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-65.jpg"/>
+            </figure></a>
+        <a href="https://global.fortinet.com/emea-lp-en-service-provider-energy-paper" target="_blank">
+            <div class="title"> Energy- and Space-Efficient Security in Telco Networks </div></a>
+        <p>Secure your infrastructure while reducing energy costs and overall environmental impact </p>
+        
+    
+    
+        <a href="https://global.fortinet.com/emea-lp-en-service-provider-energy-paper" target="_blank" class="cta">Download the White Paper</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                </ul>
+
+            </div>
+            <div class="subnav-vertical-content">
+
+            </div>
+            <!--end nav content-->
+        </div>
+    </li>
+
+
+
+
+        <!-- Subcategory End  -->
+    
+
+
+    
+    
+
+
+
+
+
+                </ul>
+                <div class="nav-vertical-content"></div>
+            </div>
+        </div>
+    </li>
+
+    <li class="main-nav-item">
+        <button aria-label="Support &amp; Services Menu">Support &amp; Services</button>
+        <div class="megamenu">
+            <div class="container">
+                <ul class="nav-vertical">
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-green ">
+        
+            <button aria-label="Cybersecurity Services Menu">Cybersecurity Services</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Cybersecurity Subscriptions</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/fortiguard-subscriptions" target="_self">
+            FortiGuard Security Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/casb" target="_self">
+            CASB
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/web-filtering" target="_self">
+            URL Filtering
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/dns-security" target="_self">
+            DNS Filtering
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/inline-sandboxing" target="_self">
+            Inline Sandbox
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/intrusion-prevention" target="_self">
+            Intrusion Prevention Service (IPS)
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/iot" target="_self">
+            IoT Detection
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/industrial-security" target="_self">
+            Industrial Security
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/security-rating" target="_self">
+            Security Rating
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Employee Training</div>
+
+<ul>
+    <li>
+        <a href="/training/cybersecurity-professionals" target="_self">
+            Free Training &amp; On-demand Labs
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/infosec-awareness" target="_self">
+            Security Awareness Training
+        </a>
+    </li>
+
+    <li>
+        <a href="/products/phishing-simulation" target="_self">
+            Phishing Simulation
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Expert Services</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/respond" target="_self">
+            Incident Response 
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/mdr" target="_self">
+            Managed Detection &amp; Response (MDR)
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/ransomware-advisory" target="_self">
+            Ransomware Advisory Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/security-as-a-service/security-advisory" target="_self">
+            Security Advisory Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/fortiguard-security-subscriptions/socaas" target="_self">
+            SOC-as-a-Service (SOCaaS)
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/threat-report-2h-2022" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-54.jpg"/>
+            </figure></a>
+        <a href="/demand/gated/threat-report-2h-2022" target="_self">
+            <div class="title"> Global Threat Landscape Report, 2H 2022 </div></a>
+        <p>New vulnerabilities are on the rise, but don’t count out the old. </p>
+        
+    
+    
+        <a href="/demand/gated/threat-report-2h-2022" target="_self" class="cta">Download the Report</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="FortiCare Support Menu">FortiCare Support</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Support</div>
+
+<ul>
+    <li>
+        <a href="/support" target="_self">
+            Customer Support &amp; RMA
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/support-services/premium-support" target="_self">
+            Advanced Support
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-8">
+
+
+
+
+    
+    
+    
+
+
+
+
+
+<div class="nav-promo large">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/threat-report-2h-2022" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-54.jpg"/>
+            </figure></a>
+        <div class="text-area">
+            <a href="/demand/gated/threat-report-2h-2022" target="_self">
+                <div class="title"> Global Threat Landscape Report, 2H 2022 </div>
+            </a>
+            <p>New vulnerabilities are on the rise, but don’t count out the old. </p>
+            
+    
+    
+        <a href="/demand/gated/threat-report-2h-2022" target="_self" class="cta">Download the Report</a>
+    
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+<div class="nav-promo large">
+    
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/gartner-wired-wireless-lan" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-42.png"/>
+            </figure></a>
+        <div class="text-area">
+            <a href="/solutions/gartner-wired-wireless-lan" target="_self">
+                <div class="title"> 2022 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure </div>
+            </a>
+            <p>Fortinet has been named a Visionary in this Magic Quadrant™ for the third year in a row. </p>
+            
+    
+    
+        <a href="/solutions/gartner-wired-wireless-lan" target="_self" class="cta">Download the Report</a>
+    
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="FortiCare Professional Services Menu">FortiCare Professional Services</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Services</div>
+
+<ul>
+    <li>
+        <a href="/support/support-services/professional-services" target="_self">
+            Professional Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/resources/security-consulting-services" target="_self">
+            Cloud Consulting Services
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-8">
+
+
+
+
+    
+    
+    
+
+
+
+
+
+<div class="nav-promo large">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/demand/gated/threat-report-2h-2022" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-54.jpg"/>
+            </figure></a>
+        <div class="text-area">
+            <a href="/demand/gated/threat-report-2h-2022" target="_self">
+                <div class="title"> Global Threat Landscape Report, 2H 2022 </div>
+            </a>
+            <p>New vulnerabilities are on the rise, but don’t count out the old. </p>
+            
+    
+    
+        <a href="/demand/gated/threat-report-2h-2022" target="_self" class="cta">Download the Report</a>
+    
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+<div class="nav-promo large">
+    
+    <div class="nav-promo-content">
+        
+
+        <a href="/solutions/gartner-wired-wireless-lan" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-42.png"/>
+            </figure></a>
+        <div class="text-area">
+            <a href="/solutions/gartner-wired-wireless-lan" target="_self">
+                <div class="title"> 2022 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure </div>
+            </a>
+            <p>Fortinet has been named a Visionary in this Magic Quadrant™ for the third year in a row. </p>
+            
+    
+    
+        <a href="/solutions/gartner-wired-wireless-lan" target="_self" class="cta">Download the Report</a>
+    
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                </ul>
+                <div class="nav-vertical-content"></div>
+            </div>
+        </div>
+    </li>
+
+    <li class="main-nav-item">
+        <button aria-label="More Menu">More</button>
+        <div class="megamenu">
+            <div class="container">
+                <ul class="nav-vertical">
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Corporate Menu">Corporate</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Corporate</div>
+
+<ul>
+    <li>
+        <a href="/corporate/about-us/about-us" target="_self">
+            About Us
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/executive-management" target="_self">
+            Executive Management
+        </a>
+    </li>
+
+    <li>
+        <a href="/customers" target="_self">
+            Customer Stories
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/corporate-social-responsibility" target="_self">
+            Social Responsibility
+        </a>
+    </li>
+
+    <li>
+        <a href="https://investor.fortinet.com/" target="_blank">
+            Investor Relations
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/contact-us" target="_self">
+            Contact Us
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/ebc" target="_self">
+            Executive Briefing Center
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/newsroom" target="_self">
+            Newsroom
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">PSAC</div>
+
+<ul>
+    <li>
+        <a href="/corporate/about-us/public-sector-advisory-council" target="_self">
+            Public Sector Advisory Council
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Life at Fortinet</div>
+
+<ul>
+    <li>
+        <a href="/corporate/careers" target="_self">
+            Careers
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/careers/early-talent-program" target="_self">
+            Early Talent Programs
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-releases-2022-sustainability-report" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-62.png"/>
+            </figure></a>
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-releases-2022-sustainability-report" target="_self">
+            <div class="title"> Fortinet 2022 Sustainability Report </div></a>
+        <p>In our report, we share the progress made in 2022 across our ESG priorities and detail how Fortinet is advancing cybersecurity as a sustainability issue. </p>
+        
+    
+    
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-releases-2022-sustainability-report" target="_self" class="cta">Read the Press Release</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Training Menu">Training</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/nse-training" target="_self">
+            Training Institute
+        </a>
+    </li>
+
+    <li>
+        <a href="/training-certification" target="_self">
+            Certification Program
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/cybersecurity-professionals" target="_self">
+            Free Training &amp; On-demand Labs
+        </a>
+    </li>
+
+    <li>
+        <a href="/support/training/learning-center" target="_self">
+            Authorized Training Centers
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Platform</div>
+
+<ul>
+    <li>
+        <a href="https://training.fortinet.com/auth/saml2/selectidp.php" target="_blank">
+            Training Institute Portal
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Programs and Services</div>
+
+<ul>
+    <li>
+        <a href="/training/infosec-awareness" target="_self">
+            Security Awareness Training
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/security-awareness-training/k12us" target="_self">
+            K–12 Security Awareness &amp; Training
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/academic-partner-program" target="_self">
+            Academic Partner Program
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/education-outreach-program" target="_self">
+            Education Outreach Program
+        </a>
+    </li>
+
+    <li>
+        <a href="/training/veterans-program" target="_self">
+            Veterans Program
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-expands-nse-certification-program-to-address-evolving-cybersecurity-skillset-needs" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-60-2.jpg"/>
+            </figure></a>
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-expands-nse-certification-program-to-address-evolving-cybersecurity-skillset-needs" target="_self">
+            <div class="title"> Fortinet Expands its NSE Certification Program to Further Address Skills Gap </div></a>
+        <p>Learn about updates to the NSE Certification program and more about the Fortinet Training Institute&#39;s momentum. </p>
+        
+    
+    
+        <a href="/corporate/about-us/newsroom/press-releases/2023/fortinet-expands-nse-certification-program-to-address-evolving-cybersecurity-skillset-needs" target="_self" class="cta">Read the Press Release</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Resources Menu">Resources</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Overview</div>
+
+<ul>
+    <li>
+        <a href="/resources" target="_self">
+            Resource Center
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/events" target="_self">
+            Events &amp; Webinars
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/product-certifications" target="_self">
+            Product Certifications
+        </a>
+    </li>
+
+    <li>
+        <a href="/resources/sled-contracts-grants" target="_self">
+            Fortinet Contracts &amp; Grants
+        </a>
+    </li>
+
+    <li>
+        <a href="https://fortinet-tv.com/" target="_blank">
+            Fortinet TV
+        </a>
+    </li>
+
+    <li>
+        <a href="/resources/cyberglossary" target="_self">
+            Cyber Glossary
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/analyst-reports" target="_self">
+            Analyst Reports
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Libraries</div>
+
+<ul>
+    <li>
+        <a href="/resources/icon-library" target="_self">
+            Fortinet Icon Library
+        </a>
+    </li>
+
+    <li>
+        <a href="https://video.fortinet.com/" target="_blank">
+            Video Library
+        </a>
+    </li>
+
+    <li>
+        <a href="/resources/ordering-guides" target="_self">
+            Ordering Guides
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">Connect With Us</div>
+
+<ul>
+    <li>
+        <a href="https://www.fortinet.com/blog" target="_blank">
+            Blog
+        </a>
+    </li>
+
+    <li>
+        <a href="https://community.fortinet.com/?pageNum=1" target="_blank">
+            Fortinet Community
+        </a>
+    </li>
+
+    <li>
+        <a href="https://global.fortinet.com/PreferenceCenter" target="_blank">
+            Email Preference Center
+        </a>
+    </li>
+
+    <li>
+        <a href="/corporate/about-us/contact-us" target="_self">
+            Contact Us
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-48.jpg"/>
+            </figure></a>
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self">
+            <div class="title"> Fortinet Named to 2022 Dow Jones Sustainability World and North America Indices </div></a>
+        <p>For the first time, ranking among the global top sustainable companies in the software and services industry. </p>
+        
+    
+    
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self" class="cta">Read the Press Release</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                
+
+                    
+
+
+
+
+    
+    
+    
+    
+
+
+    <li class="nav-red ">
+        
+            <button aria-label="Partners Menu">Partners</button>
+            <div class="v-container">
+                <!--nav content-->
+
+
+                
+                    
+                    
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">For Partners</div>
+
+<ul>
+    <li>
+        <a href="/partners/partner-program/partner-login" target="_self">
+            Partner Login
+        </a>
+    </li>
+
+    <li>
+        <a href="/partners/partner-program/become-a-fortinet-partner" target="_self">
+            Become a Partner
+        </a>
+    </li>
+
+    <li>
+        <a href="/partners/technology-alliances/join-the-ecosystem" target="_self">
+            Join the Ecosystem
+        </a>
+    </li>
+</ul></div>
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">For Customers</div>
+
+<ul>
+    <li>
+        <a href="/solutions/enterprise-midsize-business/openecosystem" target="_self">
+            Ecosystem Overview
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/enterprise-midsize-business/fabric-connectors" target="_self">
+            Fabric Connectors
+        </a>
+    </li>
+
+    <li>
+        <a href="https://partnerportal.fortinet.com/directory/" target="_blank">
+            Find a Partner
+        </a>
+    </li>
+
+    <li>
+        <a href="/partners/global-system-integrators" target="_self">
+            Global System Integrators
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    <div class="C862-Header-Links-List">
+
+
+<div class="nav-label">For Service Providers</div>
+
+<ul>
+    <li>
+        <a href="/solutions/service-provider/communications-service-provider/mssp" target="_self">
+            Managed Services
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/industries/communications-service-provider" target="_self">
+            Communication Service Providers
+        </a>
+    </li>
+
+    <li>
+        <a href="/solutions/mobile-carrier" target="_self">
+            Mobile Provider
+        </a>
+    </li>
+</ul></div>
+
+
+</div>
+
+                        <div class="parsys col-md-4">
+
+
+
+
+    
+    
+    
+
+
+<div class="nav-promo">
+    <div class="nav-promo-header"> Latest From Fortinet </div>
+    <div class="nav-promo-content">
+        
+
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self">
+            <figure><img class="lazy-load" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/news/featured-news/featured-news-48.jpg"/>
+            </figure></a>
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self">
+            <div class="title"> Fortinet Named to 2022 Dow Jones Sustainability World and North America Indices </div></a>
+        <p>For the first time, ranking among the global top sustainable companies in the software and services industry. </p>
+        
+    
+    
+        <a href="/corporate/about-us/newsroom/press-releases/2022/fortinet-2022-dow-jones-sustainability-world-north-america-indices" target="_self" class="cta">Read the Press Release</a>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                    
+                    
+                    
+
+
+                
+
+                <!--<div class="nav-bar"></div>-->
+            </div>
+        
+    </li>
+    
+
+
+
+
+
+                </ul>
+                <div class="nav-vertical-content"></div>
+            </div>
+        </div>
+    </li>
+
+
+            </ul>
+
+            <div class="mobile-search"></div>
+
+            <div class="theats-intelligence"><a href="/fortiguard/labs"><span>FortiGuard Labs</span> Threat Intelligence</a></div>
+        </div>
+
+    </nav>
+
+    <div class="disable-background"></div>
+</header>
+</div>
+
+
+
+</div></div>
+
+
+        <main class="page--body" id="CONTENT">
+            
+
+
+
+
+    
+    
+    <div class="C941-Product-Hero-Banner">
+<style>
+    .C941-Product-Hero-Banner .section {
+     overflow: hidden;
+     position: relative;
+     padding-bottom: 0;
+     padding-top: 0;
+}
+ .C941-Product-Hero-Banner .border-bottom {
+     border-bottom: 2px solid #000;
+}
+ .C941-Product-Hero-Banner .section.product-hero h1:after {
+     content: '';
+     width: 118px;
+     height: 7px;
+     background: #da291c;
+     display: block;
+     margin: 10px 0 30px;
+}
+ .C941-Product-Hero-Banner .section.product-hero h1 + p {
+     font-size: 18px;
+     margin-bottom: 30px;
+     line-height: 1.3;
+     letter-spacing: 0.1px;
+     color: #000;
+}
+/*.C941-Product-Hero-Banner .section.product-hero .section-content a {
+     display: block;
+}
+*/
+ .C941-Product-Hero-Banner .btn {
+     font-size: 15px;
+     text-align: left;
+     color: #000;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: 700;
+     letter-spacing: 1px;
+     padding: 18px 20px;
+     border: 2px solid #000;
+     transition: background-color .3s;
+     white-space: normal;
+     max-width: 600px;
+}
+ .C941-Product-Hero-Banner .btn:hover {
+     opacity: 1;
+     color: #fff;
+     background-color: #da291c;
+     border-color: #da291c;
+}
+ .C941-Product-Hero-Banner .section.product-hero #main-image {
+     position: absolute;
+     bottom: 0;
+     display: block;
+     left: 0;
+     height: auto;
+     z-index: 10;
+}
+ .C941-Product-Hero-Banner .section.product-hero #main-image-icon {
+    /*top: 80px;
+    */
+     display: block;
+     left: 80px;
+     width: 150px;
+     height: 150px;
+     z-index: 11;
+     position: absolute;
+}
+ .C941-Product-Hero-Banner .row {
+     margin-bottom: 0;
+     align-items: unset;
+}
+ .C941-Product-Hero-Banner .section.product-hero #background-image {
+     position: absolute;
+     width: 211px;
+     left: 300px;
+     height: 181px;
+     opacity: 0.5;
+     z-index: 25;
+}
+ .C941-Product-Hero-Banner .section.product-hero #line-1 {
+     width: 329px;
+     bottom: 40px;
+     left: 250px;
+}
+ .C941-Product-Hero-Banner .section.product-hero .line {
+     position: absolute;
+     background: #000;
+     opacity: 0.5;
+     height: 12px;
+     z-index: 20;
+}
+ .C941-Product-Hero-Banner .section.product-hero .rectangle {
+     position: absolute;
+     background-color: #dadada;
+     width: 187px;
+     height: 119px;
+     right: -220px;
+     z-index: 0;
+     top: 110px !important;
+     opacity: 0.6;
+}
+ .C941-Product-Hero-Banner [class*=col-] {
+     margin: 0;
+     padding-bottom: 0 !important;
+}
+
+.C941-Product-Hero-Banner .new-announcement + .banner
+    {
+    	margin-top: 0px;
+    }
+    .C941-Product-Hero-Banner .new-announcement + .banner .section-content
+    {
+        padding-top: 0px;
+    }
+    .C941-Product-Hero-Banner .new-announcement .announcement
+    {
+    	margin: 30px 0px 0px 0px;
+        padding: 0px 20px 0px 0px;
+    	border: 1px solid #ebebeb;
+    	display: flex;
+    	border-radius: 20px;
+    	background: #f6f6f6;
+        position: relative;
+    	line-height: 13px;
+    	width: max-content;
+    }
+	.C941-Product-Hero-Banner .new-announcement .announcement:hover
+	{
+    	cursor: pointer;
+}
+	.C941-Product-Hero-Banner .new-announcement .announcement:hover
+    {
+        border: 1px solid #da291c;
+    }
+    .C941-Product-Hero-Banner .new-announcement a
+    {
+    	color: #000 !important;
+        font-size: 13px;
+    	padding-top: 8px;
+    	padding-bottom: 6px;
+    	display: block;
+    }
+    .C941-Product-Hero-Banner .new-announcement a:after
+    {
+    	content: '';
+    	background-image: url(/content/dam/fortinet/assets/css/announcement-arror.jpg);
+    	width: 4px;
+    	height: 8px;
+    	position: absolute;
+    	margin-top: 3px;
+    	right: 10px;
+
+    }
+    .C941-Product-Hero-Banner .new-announcement a:hover
+    {
+		text-decoration: none;
+    }
+    .C941-Product-Hero-Banner .announcement span
+    {
+        display: inline-block;
+    	background: #da291c;
+    	border-radius: 15px;
+    	padding: 6px 10px;
+    	color: #fff;
+    	font-size: 10px;
+    	text-transform: uppercase;
+    	margin: 2px 10px 2px 2px;
+    }
+
+ @media (min-width: 1024px) {
+     .C941-Product-Hero-Banner .d-lg-block {
+         display: block !important;
+    }
+     .C941-Product-Hero-Banner .section-aside {
+         min-height: 320px;
+    }
+}
+ @media (max-width: 576px) {
+     .C941-Product-Hero-Banner .section.product-hero h1 {
+         font-size: 38px;
+         line-height: 41px;
+         font-weight: 700;
+         color: #000;
+    }
+     .section.product-hero .section-content {
+         padding: 35px 10px;
+    }
+     .C941-Product-Hero-Banner .btn {
+         display: inline-block;
+         margin-bottom: 10px;
+    }
+}
+ @media (max-width: 2000px) {
+     .C941-Product-Hero-Banner .section.product-hero #main-image-icon {
+         bottom: 80px;
+         left: 70px;
+    }
+}
+ .d-none {
+     display: none !important;
+}
+ @media (min-width: 577px) {
+     .C941-Product-Hero-Banner .section.product-hero h1 {
+         font-size: 45px;
+         font-weight: 700;
+         color: #000;
+         line-height: 55px;
+    }
+     .C941-Product-Hero-Banner .section.product-hero .section-content {
+         padding: 40px 0;
+    }
+     .C941-Product-Hero-Banner .btn {
+         display: inline-block;
+    }
+
+}
+@media (max-width: 991px)
+{
+	.C941-Product-Hero-Banner .new-announcement
+	{
+    	margin-bottom: 20px;
+	}
+	.C941-Product-Hero-Banner .new-announcement .announcement
+    {
+    	padding-right: 15px;
+    }
+	.C941-Product-Hero-Banner .new-announcement a:after
+    {
+        position: relative !important;
+    	left: 2px;
+    	top: 1px;
+    	content: '\25B8';
+    	background-image: none;
+    }
+        .C941-Product-Hero-Banner .new-announcement .announcement
+        {
+            padding: 0px 10px 2px;
+    		width: auto;
+    		padding-left: 2px;
+        }
+
+        .C941-Product-Hero-Banner .announcement span
+        {
+            display: flex;
+            background: #da291c;
+            border-radius: 20px;
+            padding: 6px 10px;
+            color: #fff;
+            margin: 2px 10px 2px 2px;
+            align-items: center;
+        }
+
+}
+</style>
+<section class="section hero product-hero border-bottom ">
+    <div class="wrap">
+        
+
+        <div class="row banner">
+            <div class="col-8 col-md-12 col-sm-12">
+                <div class="section-content">
+                    <h1>What is a Proxy Server?  How does it work?</h1>
+                    
+
+                    
+                        
+                            
+    
+        <a class="btn" target="_self" href="/solutions/gartner-network-firewalls?utm_source=website&utm_medium=seo&utm_campaign=cyberglossary-proxy-server&utm_content=AR-2023-MQ-NWFW">
+            Fortinet is a Leader for the 13th time in the 2022 Gartner® Magic Quadrant™ for Network Firewalls
+        </a>
+    
+
+    
+    
+    
+
+                        
+                    
+
+                    
+
+                </div>
+            </div>
+
+            <div class="d-lg-block d-none col-4 ">
+                <div class="section-aside">
+                    <img id="main-image-icon" class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/hero-banners/products/hero-generic-foreground-blank.png" alt="What is a Proxy Server?  How does it work?"/>
+                    <img id="main-image" class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/hero-banners/products/hero-generic-background-06.svg" alt="banner background"/>
+
+                    <img id="background-image" src="/etc/designs/fortinet/media/icons/dots.png" alt="banner dots"/>
+                    <div class="line" id="line-1"></div>
+                    <div class="rectangle paralax" data-dir="top" data-pos="0" id="rectangle-1" style="top: 0px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section></div>
+
+
+    
+    
+    <div class="C05-Container">
+
+
+<section class="section--resource cs--no-padding  ">
+	
+	
+	<div class="wrap wrap--default  ">
+		
+
+
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom   new--design ">
+
+    
+    
+        Proxy Server Definition
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A <b>proxy server</b> is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network. It is a server, referred to as an “intermediary” because it goes between end-users and the web pages they visit online.</p>
+<p>When a computer connects to the internet, it uses an <a href="/resources/cyberglossary/what-is-ip-address">IP address</a>. This is similar to your home’s street address, telling incoming data where to go and marking outgoing data with a return address for other devices to authenticate. A proxy server is essentially a computer on the internet that has an IP address of its own.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Proxy Servers and Network Security
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Proxies provide a valuable layer of security for your computer. They can be set up as web filters or <a href="/resources/cyberglossary/firewall-defined">firewall</a>s, protecting your computer from <a href="/resources/cyberglossary/internet-security">internet threats</a> like <a href="/content/fortinet-com/en_us">malware</a>.</p>
+<p>This extra security is also valuable when coupled with a <a href="https://www.fortinet.com/products/secure-web-gateway">secure web gateway</a> or other <a href="https://www.fortinet.com/products/email-security">email security</a> products. This way, you can filter traffic according to its level of safety or how much traffic your network—or individual computers—can handle.</p>
+<p>How to use a proxy? Some people use proxies for personal purposes, such as hiding their location while watching movies online, for example. For a company, however, they can be used to accomplish several key tasks such as:</p>
+<ol>
+<li>Improve security</li>
+<li>Secure employees’ internet activity from people trying to snoop on them</li>
+<li>Balance internet traffic to prevent crashes</li>
+<li>Control the websites employees and staff access in the office</li>
+<li>Save bandwidth by <a href="/resources/cyberglossary/what-is-caching">caching files</a> or compressing incoming traffic</li>
+</ol>
+<p> </p>
+
+
+</div>
+
+
+    
+    
+    <div class="C28-Image image parbase">
+
+    <img src="/content/fortinet-com/en_us/resources/cyberglossary/proxy-server/_jcr_content/par/c05_container_copy_c/par/c28_image_copy_copy_.img.jpg/1625683502431.jpg" alt="What is a Proxy Server: A proxy server in action." title="What is a Proxy Server?" class="cq-dd-image" data-emptytext="Image"/>
+
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom    ">
+
+    
+    
+        How a Proxy Works
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Because a proxy server has its own IP address, it acts as a go-between for a computer and the internet. Your computer knows this address, and when you send a request on the internet, it is routed to the proxy, which then gets the response from the web server and forwards the data from the page to your computer’s browser, like Chrome, Safari, Firefox, or Microsoft Edge</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        How to Get a Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>There are hardware and software versions. Hardware connections sit between your network and the internet, where they get, send, and forward data from the web. Software proxies are typically hosted by a provider or reside in the cloud. You download and install an application on your computer that facilitates interaction with the proxy.</p>
+<p>Often, a software proxy can be obtained for a monthly fee. Sometimes, they are free. The free versions tend to offer users fewer addresses and may only cover a few devices, while the paid proxies can meet the demands of a business with many devices.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        How Is the Server Set Up?
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>To get started with a proxy server, you have to configure it in your computer, device, or network. Each operating system has its own setup procedures, so check the steps required for your computer or network.</p>
+<p>In most cases, however, setup means using an automatic configuration script. If you want to do it manually, there will be options to enter the IP address and the appropriate port.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        How Does the Proxy Protect Computer Privacy and Data?
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A proxy server performs the function of a firewall and filter. The end-user or a network administrator can choose a proxy designed to protect data and privacy. This examines the data going in and out of your computer or network. It then applies rules to prevent you from having to expose your digital address to the world. Only the proxy’s IP address is seen by hackers or other bad actors. Without your personal IP address, people on the internet do not have direct access to your personal data, schedules, apps, or files.</p>
+<p>With it in place, web requests go to the proxy, which then reaches out and gets what you want from the internet. If the server has <a href="/resources/cyberglossary/encryption">encryption</a> capabilities, passwords and other personal data get an extra tier of protection.<br />
+</p>
+
+
+</div>
+
+
+
+	</div>
+</section>
+</div>
+
+
+    
+    
+    <div class="C05-Container">
+
+
+<section class="section--resource cs--no-padding bg--light-gray ">
+	
+	
+	<div class="wrap wrap--default  ">
+		
+
+
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom   new--design ">
+
+    
+    
+        Benefits of a Proxy Server
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Proxies come with several benefits that can give your business an advantage:</p>
+<ol>
+<li><b>Enhanced security</b>: Can act like a firewall between your systems and the internet. Without them, hackers have easy access to your IP address, which they can use to infiltrate your computer or network.</li>
+<li><b>Private browsing, watching, listening, and shopping</b>: Use different proxies to help you avoid getting inundated with unwanted ads or the collection of IP-specific data. With a proxy, site browsing is well-protected and impossible to track.</li>
+<li><b>Access to location-specific content</b>: You can designate a proxy server with an address associated with another country. You can, in effect, make it look like you are in that country and gain full access to all the content computers in that country are allowed to interact with. For example, the technology can allow you to open location-restricted websites by using local IP addresses of the location you want to appear to be in. </li>
+<li><b>Prevent employees from browsing inappropriate or distracting sites</b>: You can use it to block access to websites that run contrary to your organization’s principles. Also, you can block sites that typically end up distracting employees from important tasks. Some organizations block social media sites like Facebook and others to remove time-wasting temptations.</li>
+</ol>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom    ">
+
+    
+    
+        Types of Proxy Servers
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>While all proxy servers give users an alternate address with which to use the internet, there are several different kinds—each with its own features. Understanding the details behind the list of proxy types will help you make a choice based on your use case and specific needs.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Forward Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A forward proxy sits in front of clients and is used to get data to groups of users within an internal network. When a request is sent, the proxy server examines it to decide whether it should proceed with making a connection.</p>
+<p>A forward proxy is best suited for internal networks that need a single point of entry. It provides IP address security for those in the network and allows for straightforward administrative control. However, a forward proxy may limit an organization’s ability to cater to the needs of individual end-users.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Transparent Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A <a href="/resources/cyberglossary/transparent-proxy">transparent proxy</a> can give users an experience identical to what they would have if they were using their home computer. In that way, it is “transparent.” They can also be “forced” on users, meaning they are connected without knowing it.</p>
+<p>Transparent proxies are well-suited for companies that want to make use of a proxy without making employees aware they are using one. It carries the advantage of providing a seamless user experience. On the other hand, transparent proxies are more susceptible to certain security threats, such as SYN-flood denial-of-service attacks.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Anonymous Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>An anonymous proxy focuses on making internet activity untraceable. It works by accessing the internet on behalf of the user while hiding their identity and computer information.</p>
+<p>A anonymous proxy is best suited for users who want to have full anonymity while accessing the internet. While anonymous proxies provide some of the best identity protection possible, they are not without drawbacks. Many view the use of anonymous proxies as underhanded, and users sometimes face pushback or discrimination as a result.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        High Anonymity Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A high anonymity proxy is an anonymous proxy that takes anonymity one step further. It works by erasing your information before the proxy attempts to connect to the target site.</p>
+<p>The server is best suited for users for whom anonymity is an absolute necessity, such as employees who do not want their activity traced back to the organization. On the downside, some of them, particularly the free ones, are decoys set up to trap users in order to access their personal information or data.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Distorting Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A distorting proxy identifies itself as a proxy to a website but hides its own identity. It does this by changing its IP address to an incorrect one.</p>
+<p>Distorting proxies are a good choice for people who want to hide their location while accessing the internet. This type of proxy can make it look like you are browsing from a specific country and give you the advantage of hiding not just your identity but that of the proxy, too. This means even if you are associated with the proxy, your identity is still secure. However, some websites automatically block distorting proxies, which could keep an end-user from accessing sites they need.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Data Center Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p><a href="/resources/cyberglossary/data-center">Data center</a> proxies are not affiliated with an internet service provider (ISP) but are provided by another corporation through a data center. The proxy server exists in a physical data center, and the user’s requests are routed through that server.</p>
+<p>Data center proxies are a good choice for people who need quick response times and an inexpensive solution. They are therefore a good choice for people who need to gather intelligence on a person or organization very quickly. They carry the benefit of giving users the power to swiftly and inexpensively harvest data. On the other hand, they do not offer the highest level of anonymity, which may put users’ information or identity at risk.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Residential Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A residential proxy gives you an IP address that belongs to a specific, physical device. All requests are then channeled through that device.</p>
+<p>Residential proxies are well-suited for users who need to verify the ads that go on their website, so you can block cookies, suspicious or unwanted ads from competitors or bad actors. Residential proxies are more trustworthy than other proxy options. However, they often cost more money to use, so users should carefully analyze whether the benefits are worth the extra investment.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Public Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A public proxy is accessible by anyone free of charge. It works by giving users access to its IP address, hiding their identity as they visit sites. </p>
+<p>Public proxies are best suited for users for whom cost is a major concern and security and speed are not. Although they are free and easily accessible, they are often slow because they get bogged down with free users. When you use a public proxy, you also run an increased risk of having your information accessed by others on the internet.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Shared Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Shared proxies are used by more than one user at once. They give you access to an IP address that may be shared by other people, and then you can surf the internet while appearing to browse from a location of your choice.</p>
+<p>Shared proxies are a solid option for people who do not have a lot of money to spend and do not necessarily need a fast connection. The main advantage of a shared proxy is its low cost. Because they are shared by others, you may get blamed for someone else’s bad decisions, which could get you banned from a site.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        SSL Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A secure sockets layer (SSL) proxy provides decryption between the client and the server. As the data is encrypted in both directions, the proxy hides its existence from both the client and the server.</p>
+<p>These proxies are best suited for organizations that need enhanced protection against threats that the SSL protocol reveals and stops. Because Google prefers servers that use SSL, an SSL proxy, when used in connection with a website, may help its search engine ranking. On the downside, content encrypted on an SSL proxy cannot be cached, so when visiting websites multiple times, you may experience slower performance than you would otherwise.<br />
+</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Rotating Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A rotating proxy assigns a different IP address to each user that connects to it. As users connect, they are given an address that is unique from the device that connected before it.</p>
+<p>Rotating proxies are ideal for users who need to do a lot of high-volume, continuous <a href="/resources/cyberglossary/web-scraping">web scraping</a>. They allow you to return to the same website again and again anonymously. However, you have to be careful when choosing rotating proxy services. Some of them contain public or shared proxies that could expose your data.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        Reverse Proxy
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Unlike a forward proxy, which sits in front of clients, a <a href="/resources/cyberglossary/reverse-proxy">reverse proxy</a> is positioned in front of web servers and forwards requests from a browser to the web servers. It works by intercepting requests from the user at the network edge of the web server. It then sends the requests to and receives replies from the origin server.</p>
+<p>Reverse proxies are a strong option for popular websites that need to balance the load of many incoming requests. They can help an organization reduce bandwidth load because they act like another web server managing incoming requests. The downside is reverse proxies can potentially expose the <a href="/resources/cyberglossary/what-is-https">HTTP server</a> architecture if an attacker is able to penetrate it. This means network administrators may have to beef up or reposition their firewall if they are using a reverse proxy.</p>
+
+
+</div>
+
+
+
+	</div>
+</section>
+</div>
+
+
+    
+    
+    <div class="C05-Container">
+
+
+<section data-bgimg="/content/dam/fortinet/content/sass-template/callout-left-whitebg.jpg" class="section--resource cs--no-padding  lozad bg--image-left">
+	
+	
+	<div class="wrap wrap--default  ">
+		
+
+
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom    ">
+
+    
+    
+        FAQs
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class="  u-headline-onlyBottom   ">
+
+    
+    
+        What is a proxy server?
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        How does a proxy server work?
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>Because a proxy server has its own IP address, it acts as a go-between for a computer and the internet. Your computer knows this address, and when you send a request on the internet, it is routed to the proxy, which then gets the response from the web server and forwards the data from the page to your computer’s browser, like Chrome, Safari, Firefox, or Microsoft Edge.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h3 class=" u-headline-topBottom    ">
+
+    
+    
+        What are the benefits of a proxy server?
+    
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>The benefits of a proxy server include enhanced security, private browsing, watching, and listening, access to location-specific content, and preventing employee from browsing inappropriate or distracting sites.</p>
+
+
+</div>
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class=" u-headline-topBottom    ">
+
+    
+    
+        
+
+    
+    
+        How Fortinet can help?
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C32-Text text parbase">
+  <p>With the increase in SSL web traffic, zero-day malware, and growing number of social websites, enterprises are turning to secure web gateways to protect employees from internet-borne attacks. Fortinet’s proxy server, <a title="FortiProxy" href="/products/secure-web-gateway/fortiproxy">FortiProxy</a>, provides features such as SSL inspection, DNS and web filtering, web application control, authenticated web access, and detailed reporting.</p>
+<p>FortiProxy delivers broad protection and visibility to every network segment, device, and appliance, whether deployed virtually, in the cloud, or on-premises. FortiProxy also provides unparalleled SSL decryption capabilities with on-board hardware acceleration. Plus, it integrates with key Security Fabric components, such as <a title="Sandbox Services" href="/products/support/support-services/fortiguard-security-subscriptions/inline-sandboxing">FortiSandbox</a>, for AI-powered zero-day file malware analysis, and <a title="FortiAnalyzer" href="/products/products/management/fortianalyzer">FortiAnalyzer</a> for centralized log analysis. </p>
+<p>FortiProxy offers 3 deployment modes: Transparent, explicit and inline deployment.</p>
+<p>For <a title="FortiADC" href="/products/application-delivery-controller/fortiadc">reverse proxy deployments, you can use our FortiADC</a> product.</p>
+<p>And if you are looking to move your SWG functionalities to the Cloud, you can experience the same Internet-borne security threat protection by deploying <a title="FortiSASE" href="/products/sase">FortiSASE</a> and either replace your on-prem SWG or expand its features to your remote workers.</p>
+
+
+</div>
+
+
+
+	</div>
+</section>
+</div>
+
+
+    
+    
+    <div class="C05-Container">
+
+
+<section class="section--resource cs--small-padding-top bg--light-gray ">
+	
+	
+	<div class="wrap wrap--default  ">
+		
+
+
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class="    new--design ">
+
+    
+    
+        Related Topics
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C25-CTA-Row">
+<aside class="valprop--home-ctas">
+    <div class="row no-border">
+        
+            
+                
+                <div class="cta--item1 col-4 col-md-12 cta-red-border">
+
+                    
+                        <a class="effect lozad" data-bgimg="/content/dam/fortinet/images/cyberglossary/what-is-a-vpn.jpg" href="/resources/cyberglossary/proxy-server-vs-packet-filtering-firewall" target="_self">
+                            <div class="cta-layer"></div>
+                            
+                            <div class="data-type" sly-data-test="Trending Now">Trending Now</div>
+
+                            <div class="cta-content">
+                                <h3 class="cta-title">How Does a Proxy Server Differ From a Packet Filtering Firewall?</h3>
+                                <div class="cta-desc">Proxy servers and packet filtering firewalls protect networks. Discover the difference between a proxy server and a firewall and how to choose between them.</div>
+                                
+                            </div>
+
+
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                    
+                </div>
+            
+                
+                <div class="cta--item1 col-4 col-md-12 cta-orange-border">
+
+                    
+                        <a class="effect lozad" data-bgimg="/content/dam/fortinet/images/cyberglossary/firewall-benefits.jpg" href="/resources/cyberglossary/firewall" target="_self">
+                            <div class="cta-layer"></div>
+                            
+                            <div class="data-type" sly-data-test="Trending Now">Trending Now</div>
+
+                            <div class="cta-content">
+                                <h3 class="cta-title">What is a Firewall?</h3>
+                                <div class="cta-desc">What is a network firewall? Learn how a firewall network can protect your network from unwanted traffic and block incoming malware. </div>
+                                
+                            </div>
+
+
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                    
+                </div>
+            
+                
+                <div class="cta--item1 col-4 col-md-12 cta-blue-border">
+
+                    
+                        <a class="effect lozad" data-bgimg="/content/dam/fortinet/images/cyberglossary/proxy-firewall.jpg" href="/resources/cyberglossary/how-to-setup-a-proxy-server" target="_self">
+                            <div class="cta-layer"></div>
+                            
+                            <div class="data-type" sly-data-test="Trending Now">Trending Now</div>
+
+                            <div class="cta-content">
+                                <h3 class="cta-title">How to Setup a Proxy Server</h3>
+                                <div class="cta-desc">Proxy servers sit between a user&#39;s computer and the internet, protecting your network from threats. Learn how to set up a proxy server on different operating systems and what to consider when choosing one.</div>
+                                
+                            </div>
+
+
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                    
+                </div>
+            
+        
+        <div class="cta--pager"></div>
+    </div>
+</aside>
+</div>
+
+
+
+	</div>
+</section>
+</div>
+
+
+    
+    
+    <div class="C05-Container">
+
+
+<section class="section--resource cs--padding bg--dark-gray ">
+	
+	
+	<div class="wrap wrap--default  ">
+		
+
+
+
+
+    
+    
+    <div class="C15-Title">
+<h2 class="    new--design ">
+
+    
+    
+        More Resources Available
+    
+
+</h2>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="C900-Layout">
+<div>
+    <div class="row stretch  ">
+        
+        <div class="col-6 col-md-12 cta--item">
+            
+
+
+
+
+    
+    
+    <div class="C937-Article-Related-Resource">
+
+
+
+    <div class="C32-Text text parbase"></div>
+    
+    
+        <div class="C908-ImageLink">
+            <div class="image parbase">
+
+                <a href="/content/dam/fortinet/assets/analyst-reports/Frost-Radar-Global-Web-Security-Market.pdf" target="_blank">
+                    <img class="lozad" src="/content/dam/fortinet/images/promos/home-cta-thumb-ent-frost-sullivan.jpg" data-src="/content/dam/fortinet/images/promos/home-cta-thumb-ent-frost-sullivan.jpg" alt="Frost Radar Global Web Security Market 2020 " data-loaded="true"/>
+                </a>
+
+            </div>
+        </div>
+        <div class="C15-Title">
+            <h4 class=" u-headline-topBottom  ">
+                <a href="/content/dam/fortinet/assets/analyst-reports/Frost-Radar-Global-Web-Security-Market.pdf" target="_blank">
+                    Frost Radar Global Web Security Market 2020
+                </a>
+
+            </h4>
+        </div>
+
+        <div class="C32-Text text parbase">
+            <p>
+
+                
+
+            </p>
+        </div>
+    
+
+
+</div>
+
+
+
+        </div>
+        <div class="col-6 col-md-12 cta--item">
+            
+
+
+
+
+    
+    
+    <div class="C937-Article-Related-Resource">
+
+
+
+
+
+
+
+    
+
+
+    <a href="https://www.youtube.com/watch?v=UymIqkaVRqw" class="play-overlay" data-video="dam" data-video-id="https://www.youtube.com/watch?v=UymIqkaVRqw">
+        <img class="lozad" src="/content/dam/fortinet/images/cyberglossary/authentication-fortiauthenticator.jpg" alt="FortiGate SSL VPN Authentication with FortiAuthenticator as IdP Proxy for Azure AD" data-src="/content/dam/fortinet/images/cyberglossary/authentication-fortiauthenticator.jpg"/>
+
+    </a>
+
+    <div class="C15-Title">
+        <h4 class=" u-headline-topBottom  ">
+            <a href="https://www.youtube.com/watch?v=UymIqkaVRqw" data-video="dam" data-video-id="https://www.youtube.com/watch?v=UymIqkaVRqw">
+                FortiGate SSL VPN Authentication with FortiAuthenticator as IdP Proxy for Azure AD
+            </a>
+
+        </h4>
+    </div>
+
+    <div class="C32-Text text parbase">
+        <p>
+            
+        </p>
+    </div>
+</div>
+
+
+
+        </div>
+    
+    </div>
+</div></div>
+
+
+
+	</div>
+</section>
+</div>
+
+
+    
+    
+    <div class="C20-Content-Reference reference parbase"><div class="cq-dd-paragraph"><div class="c10_footer_banner_1506890078 C10-Footer-Banner">
+<section class="section section-links" data-bgimg="/content/dam/fortinet/images/footer-banners/sass-template-footer-banner.jpg">
+	<div class="container">
+		<div class="section__head">
+			<h2 class="text-left">Quick Links</h2>
+		</div>
+		<div class="section__body background-dot">
+			<div class="row">
+				<div class="col-6 col-md-6 col-sm-12">
+					<div class="box">
+						<a target="_self" href="/demo-center" class="box-link row">
+							<div class="box-image col-3 col-md-3 col-sm-3">
+								<img class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/footer-banners/links-image-1-139x100.png" alt="links image 1 139x100"/>
+							</div>
+							<div class="box-content col-9 col-md-9 col-sm-9">
+								<h3 class="h4">
+									Free Product Demo
+								</h3>
+								<p>Explore key features and capabilities, and experience user interfaces.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-md-6 col-sm-12">
+					<div class="box">
+						<a target="_self" href="/resources" class="box-link row">
+							<div class="box-image col-3 col-md-3 col-sm-3">
+								<img class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/footer-banners/resource-center-icon-139X159.png" alt="resource center icon 139X159"/>
+							</div>
+							<div class="box-content col-9 col-md-9 col-sm-9">
+								<h3 class="h4">
+									Resource Center
+								</h3>
+								<p>Download from a wide range of educational material and documents.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-md-6 col-sm-12">
+					<div class="box">
+						<a target="_self" href="/support/product-downloads" class="box-link row">
+							<div class="box-image col-3 col-md-3 col-sm-3">
+								<img class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/footer-banners/links-image-2-139x121.png" alt="links image 2 139x121" width="130" height="94"/>
+							</div>
+							<div class="box-content col-9 col-md-9 col-sm-9">
+								<h3 class="h4">
+									Free Trials
+								</h3>
+								<p>Test our products and solutions.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-6 col-md-6 col-sm-12">
+					<div class="box">
+						<a target="_self" href="/corporate/about-us/contact-us" class="box-link row">
+							<div class="box-image col-3 col-md-3 col-sm-3">
+								<img class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/footer-banners/contact-sales-icon-139x85.png" alt="contact sales icon 139x85" width="130" height="94"/>
+							</div>
+							<div class="box-content col-9 col-md-9 col-sm-9">
+								<h3 class="h4">
+									Contact Sales
+								</h3>
+								<p>Have a question? We&#39;re here to help.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section></div>
+</div>
+</div>
+
+
+
+
+        </main>
+    </div>
+    
+	<!-- Footer Include -->
+		<div class="xfpage page basicpage">
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="C800-Footer aem-GridColumn aem-GridColumn--default--12">
+<footer class="footer" id="footer">
+    <div class="footer-row desktop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    
+    
+
+    <nav class="footer-nav  ">
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            <div class="footer-col-title">Products</div>
+            <div class="has-children">
+                
+                    
+                    <h3>Enterprise</h3>
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/network-security" target="_self">
+                            Secure Networking
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/cloud-security" target="_self">
+                            Application Security
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/security-operations" target="_self">
+                            Security Operations
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/user-device-security" target="_self">
+                            User and Device Security
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/fortiguard/labs" target="_self">
+                            Threat Intelligence
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            
+            <div class="has-children">
+                
+                    
+                    <h3>Small Mid-Sized Businesses</h3>
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/small-business" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            
+            <div class="has-children">
+                
+                    
+                    <h3>Service Providers</h3>
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/service-provider/communications-service-provider/mssp" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+
+        
+    </nav>
+
+                </div>
+                <div class="col-md-3">
+                    
+    
+
+    <nav class="footer-nav  ">
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            <div class="footer-col-title">Partners</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/partners/technology-alliances/alliances-ecosystem" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partnerships/alliance-partners" target="_self">
+                            Alliances Ecosystem
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://partnerportal.fortinet.com/directory/" target="_blank">
+                            Find a Partner
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partner-program/become-a-fortinet-partner" target="_self">
+                            Become a Partner
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partner-program/partner-login" target="_self">
+                            Partner Login
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+
+        
+    </nav>
+
+                </div>
+                <div class="col-md-3">
+                    
+    
+
+    <nav class="footer-nav  ">
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            <div class="footer-col-title">More</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/corporate/about-us/about-us" target="_self">
+                            About Us
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/nse-training" target="_self">
+                            Training
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/resources" target="_self">
+                            Resources 
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/support" target="_self">
+                            Support
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/support/product-downloads" target="_self">
+                            Product Downloads
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/covid19-response" target="_self">
+                            COVID-19 Response
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/resources/cyberglossary" target="_self">
+                            CyberGlossary
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/careers" target="_self">
+                            Careers
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/careers/early-talent-program" target="_self">
+                            Early Talent Program
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://investor.fortinet.com/" target="_blank">
+                            Investor Relations
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/about-us/corporate-social-responsibility" target="_self">
+                            Social Responsibility
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/sitemap" target="_self">
+                            Sitemap
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+
+        
+    </nav>
+
+                </div>
+                <div class="col-md-3 reverse-on-mobile">
+                    
+    
+
+    <nav class="footer-nav  ">
+        
+
+
+
+
+    
+    
+    <div class="C802-Footer-Newsletter-Form">
+<div class="contact-form">
+    <form class="ftnt-subscribe-form">
+        <div class="form-control">
+            <label for="email">Enter Email Address</label>
+            <input type="email" required="required" id="email" name="emailAddress" placeholder="Enter Email Address"/>
+            <button type="submit">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/submit-arrow.svg" alt="Submit" width="24" height="24"/>
+            </button>
+
+        </div>
+
+        <div role="status" class="ftnt-subscribed" style="margin-bottom: 17px;display:none;color:#da291c;"><p> Subscription Successful!</p></div>
+        <div class="ftnt-subscription-failed" style="margin-bottom: 17px;display:none;color:#da291c;"><p> Request Failed. Please try again later!</p></div>
+
+        <div class="form-checkbox">
+            <label for="terms">
+                <input type="checkbox" tabindex="-1" required="required" value="on" name="consentCheckbox" id="terms" aria-label="consent agreement"/>
+                <span tabindex="0" class="checkmark"></span>
+            </label>
+            <p><p>I want to receive news and product emails. Read our <a href="/corporate/about-us/privacy">privacy policy</a>.</p>
+</p>
+        </div>
+
+        
+            <input type="hidden" name="languagecountry" value="en-us"/>
+        
+        <input type="hidden" name="eloquaFormAction" value="https://s3049749.t.eloqua.com/e/f2"/>
+        <input type="hidden" name="HFcampaignID" value="7012H000001dWu1QAE"/>
+        <input type="hidden" name="HFemailID"/>
+        <input type="hidden" name="elqSiteId" value="3049749"/>
+        <input type="hidden" name="elqFormId" value="form420"/>
+        <input type="hidden" name="elqFormName" value="WebsiteSubscription"/>
+        <input type="hidden" name="memberStatus" value="Responded"/>
+        <input type="hidden" name="assetName" value="Proxy-server"/>
+        <input type="hidden" name="assetUrl" value=""/>
+        <input type="hidden" name="last-page-visit" value=""/>
+        <input type="hidden" id="formChecker" name="formChecker" value=""/>
+        <input type="hidden" id="utmsource" name="utmsource" value=""/>
+        <input type="hidden" id="utmmedium" name="utmmedium" value=""/>
+        <input type="hidden" id="utmcampaign" name="utmcampaign" value=""/>
+        <input type="hidden" id="utmterm" name="utmterm" value=""/>
+        <input type="hidden" id="utmcontent" name="utmcontent" value=""/>
+        <input type="hidden" name="hiddenField2" value="Website"/>
+        <input type="hidden" name="mid" value=""/>
+        <input type="hidden" name="servertype" value=""/>
+        <input type="hidden" name="languagecode" value=""/>
+        <input type="hidden" name="country" value=""/>
+        <input value="" type="hidden" id="elqFormSubmissionToken" class="elqFormSubmissionToken" name="elqFormSubmissionToken"/>
+        <div id="elq-FormLastRow" class="row">
+            <label class="elq-label">address1</label>
+            <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="address1" aria-label="Address"/>
+        </div>
+    </form>
+    <input type="hidden" name="invalidEmail" value="Please enter a valid business email address."/>
+</div>
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+            <div class="footer-col-title">Connect With Us</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="https://www.fortinet.com/blog" target="_blank">
+                            Blog
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://community.fortinet.com" target="_blank">
+                            Fortinet Community
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://global.fortinet.com/PreferenceCenter" target="_blank">
+                            Email Preference Center
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/about-us/contact-us" target="_self">
+                            Contact Us
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+
+
+</div>
+
+
+    
+    
+    <div class="C803-Footer-Social-Channels">
+
+
+<div class="socials">
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/fortinet" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/facebook_icon_footer.svg" alt="Facebook"/>
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://twitter.com/fortinet" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/twitter_icon_footer.svg" alt="Twitter"/>
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://www.youtube.com/channel/UCJHo4AuVomwMRzgkA5DQEOA?sub_confirmation=1" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/youtube_icon_footer.svg" alt="Youtube"/>
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://www.linkedin.com/company/fortinet" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/linkedin_icon_footer.svg" alt="LinkedIn"/>
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://www.instagram.com/behindthefirewall/" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/instagram_icon_footer.svg" alt="Instagram"/>
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://www.fortinet.com/rss-feeds" target="_blank">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/social-media/rss_icon_footer.svg" alt="RSS"/>
+            </a>
+        </li>
+    </ul>
+</div></div>
+
+
+
+        
+    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-row line-bottom mobile">
+        <div class="row">
+            <div class="col-12">
+                
+    
+
+    <nav class="footer-nav footer-nav--mobile ">
+        
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            <div class="footer-col-title">Products</div>
+            <div class="has-children">
+                
+                    <a href="#">Enterprise</a>
+                    
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/network-security" target="_self">
+                            Secure Networking
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/cloud-security" target="_self">
+                            Application Security
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/security-operations" target="_self">
+                            Security Operations
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/solutions/enterprise-midsize-business/user-device-security" target="_self">
+                            User and Device Security
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/fortiguard/labs" target="_self">
+                            Threat Intelligence
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            
+            <div class="has-children">
+                
+                    <a href="#">Small Mid-Sized Businesses</a>
+                    
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/small-business" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            
+            <div class="has-children">
+                
+                    <a href="#">Service Providers</a>
+                    
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/solutions/service-provider/communications-service-provider/mssp" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+
+    </nav>
+
+            </div>
+            <div class="col-12">
+                
+    
+
+    <nav class="footer-nav footer-nav--mobile ">
+        
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            <div class="footer-col-title">Partners</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/partners/technology-alliances/alliances-ecosystem" target="_self">
+                            Overview
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partnerships/alliance-partners" target="_self">
+                            Alliances Ecosystem
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://partnerportal.fortinet.com/directory/" target="_blank">
+                            Find a Partner
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partner-program/become-a-fortinet-partner" target="_self">
+                            Become a Partner
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/partners/partner-program/partner-login" target="_self">
+                            Partner Login
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+
+    </nav>
+
+            </div>
+            <div class="col-12">
+                
+    
+
+    <nav class="footer-nav footer-nav--mobile ">
+        
+        
+
+
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            <div class="footer-col-title">More</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="/corporate/about-us/about-us" target="_self">
+                            About Us
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/nse-training" target="_self">
+                            Training
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/resources" target="_self">
+                            Resources 
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/support" target="_self">
+                            Support
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/support/product-downloads" target="_self">
+                            Product Downloads
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/covid19-response" target="_self">
+                            COVID-19 Response
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/resources/cyberglossary" target="_self">
+                            CyberGlossary
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/careers" target="_self">
+                            Careers
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/careers/early-talent-program" target="_self">
+                            Early Talent Program
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://investor.fortinet.com/" target="_blank">
+                            Investor Relations
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/about-us/corporate-social-responsibility" target="_self">
+                            Social Responsibility
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/sitemap" target="_self">
+                            Sitemap
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+
+    </nav>
+
+            </div>
+            <div class="col-12">
+                
+    
+
+    <nav class="footer-nav footer-nav--mobile reverse-on-mobile">
+        
+        
+
+
+
+
+    
+    
+    <div class="C802-Footer-Newsletter-Form">
+<div class="contact-form">
+    <form class="ftnt-subscribe-form">
+        <div class="form-control">
+            <label for="email">Enter Email Address</label>
+            <input type="email" required="required" id="email" name="emailAddress" placeholder="Enter Email Address"/>
+            <button type="submit">
+                <img class="lozad" data-src="/content/dam/fortinet/images/icons/submit-arrow.svg" alt="Submit" width="24" height="24"/>
+            </button>
+
+        </div>
+
+        <div role="status" class="ftnt-subscribed" style="margin-bottom: 17px;display:none;color:#da291c;"><p> Subscription Successful!</p></div>
+        <div class="ftnt-subscription-failed" style="margin-bottom: 17px;display:none;color:#da291c;"><p> Request Failed. Please try again later!</p></div>
+
+        <div class="form-checkbox">
+            <label for="terms">
+                <input type="checkbox" tabindex="-1" required="required" value="on" name="consentCheckbox" id="terms" aria-label="consent agreement"/>
+                <span tabindex="0" class="checkmark"></span>
+            </label>
+            <p><p>I want to receive news and product emails. Read our <a href="/corporate/about-us/privacy">privacy policy</a>.</p>
+</p>
+        </div>
+
+        
+            <input type="hidden" name="languagecountry" value="en-us"/>
+        
+        <input type="hidden" name="eloquaFormAction" value="https://s3049749.t.eloqua.com/e/f2"/>
+        <input type="hidden" name="HFcampaignID" value="7012H000001dWu1QAE"/>
+        <input type="hidden" name="HFemailID"/>
+        <input type="hidden" name="elqSiteId" value="3049749"/>
+        <input type="hidden" name="elqFormId" value="form420"/>
+        <input type="hidden" name="elqFormName" value="WebsiteSubscription"/>
+        <input type="hidden" name="memberStatus" value="Responded"/>
+        <input type="hidden" name="assetName" value="Proxy-server"/>
+        <input type="hidden" name="assetUrl" value=""/>
+        <input type="hidden" name="last-page-visit" value=""/>
+        <input type="hidden" id="formChecker" name="formChecker" value=""/>
+        <input type="hidden" id="utmsource" name="utmsource" value=""/>
+        <input type="hidden" id="utmmedium" name="utmmedium" value=""/>
+        <input type="hidden" id="utmcampaign" name="utmcampaign" value=""/>
+        <input type="hidden" id="utmterm" name="utmterm" value=""/>
+        <input type="hidden" id="utmcontent" name="utmcontent" value=""/>
+        <input type="hidden" name="hiddenField2" value="Website"/>
+        <input type="hidden" name="mid" value=""/>
+        <input type="hidden" name="servertype" value=""/>
+        <input type="hidden" name="languagecode" value=""/>
+        <input type="hidden" name="country" value=""/>
+        <input value="" type="hidden" id="elqFormSubmissionToken" class="elqFormSubmissionToken" name="elqFormSubmissionToken"/>
+        <div id="elq-FormLastRow" class="row">
+            <label class="elq-label">address1</label>
+            <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="address1" aria-label="Address"/>
+        </div>
+    </form>
+    <input type="hidden" name="invalidEmail" value="Please enter a valid business email address."/>
+</div>
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+    
+        
+            <div class="footer-col-title">Connect With Us</div>
+            <div class="has-children">
+                
+                <ul class="submenu">
+                    <li>
+                        <a href="https://www.fortinet.com/blog" target="_blank">
+                            Blog
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://community.fortinet.com" target="_blank">
+                            Fortinet Community
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="https://global.fortinet.com/PreferenceCenter" target="_blank">
+                            Email Preference Center
+                        </a>
+                    </li>
+                    
+                
+                    <li>
+                        <a href="/corporate/about-us/contact-us" target="_self">
+                            Contact Us
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+    
+</div>
+
+
+    
+    
+    <div class="C803-Footer-Social-Channels"></div>
+
+
+
+    </nav>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-row copyrights">
+        <div class="container">
+            
+
+
+
+
+    
+    
+    <div class="C804-Footer-Logo">
+
+
+<div class="row">
+    <div class="logo-section__official">
+        <div class="footer-logo">
+            <a href="https://www.fortinet.com">
+                <img class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="/content/dam/fortinet/images/general/fortinet-footer-logo.svg" alt="Fortinet" width="194" height="23"/>
+            </a>
+        </div>
+    </div>
+    <div class="logo-section__partner">
+        <div class="partner-logo">
+            <a href="/romain-attanasio" target="_self">
+                <img class="lozad" data-src="/content/dam/fortinet/images/footer/roman-attanasio-partnership-logo.jpg" alt="Romain Attanasio"/>
+            </a>
+        </div>
+    
+        <div class="partner-logo">
+            <a href="/fortinet-championship-au" target="_self">
+                <img class="lozad" data-src="/content/dam/fortinet/images/footer/logo-ftnt-pga-australia.png" alt="Fortinet PGA Tour Australia"/>
+            </a>
+        </div>
+    
+        <div class="partner-logo">
+            <a href="/fortinet-cup-ca" target="_self">
+                <img class="lozad" data-src="/content/dam/fortinet/images/footer/logo-ftnt-pga-canada.png" alt="Fortinet Cup - PGA Tour Canada"/>
+            </a>
+        </div>
+    
+        <div class="partner-logo">
+            <a href="/dp-world-tour" target="_self">
+                <img class="lozad" data-src="/content/dam/fortinet/images/footer/logo-ftnt-european-tour.png" alt="Fortinet European Tour Partnership"/>
+            </a>
+        </div>
+    
+        <div class="partner-logo">
+            <a href="/fortinet-championship" target="_self">
+                <img class="lozad" data-src="/content/dam/fortinet/images/footer/logo-ftnt-pga-usa.png" alt="Fortinet PGA Championship"/>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    
+    
+    <div class="C805-Footer-Text">
+<div class="row">
+    
+    <div class="copyright">
+        <div class="col-md-12">
+            
+            <p>Copyright © 2023 Fortinet, Inc. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    
+</div>
+
+
+</div>
+
+
+    
+    
+    <div class="footer-links-list">
+
+
+
+    
+        
+        <div class="row">
+            <div class="container">
+                <nav class="nav bottom-nav">
+                    <ul>
+                        <li>
+                            <a href="/corporate/about-us/legal" target="_self">
+                                Terms of Service
+                            </a>
+                        </li>
+                        
+                    
+                        <li>
+                            <a href="/corporate/about-us/privacy" target="_self">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        
+                    
+                        <li>
+                            <a href="/corporate/about-us/privacy#npr-ca" target="_self">
+                                Notice for California Residents
+                            </a>
+                        </li>
+                        
+                    
+                        <li>
+                            <a href="/corporate/about-us/privacy#ccpa-cpi" target="_self">
+                                Do Not Sell My Personal Information
+                            </a>
+                        </li>
+                        
+                    
+                        <li>
+                            <a href="/corporate/about-us/gdpr" target="_self">
+                                GDPR
+                            </a>
+                        </li>
+                        
+                    
+                        
+                        <li>
+                            <a href="#" onclick="Optanon.ToggleInfoDisplay()">
+                                Cookie Settings
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    
+
+
+</div>
+
+
+    
+    
+    <div class="C805-Footer-Text">
+<div class="row">
+    
+    
+    <div class="container">
+        <div class="disclaimer">
+            <p>©Gartner is a registered trademark and service mark of Gartner, Inc. and/or its affiliates, and is used herein with permission. All Rights Reserved.</p>
+
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</footer>
+
+</div>
+
+    
+</div>
+
+</div></div>
+
+
+
+
+<!-- Launch COnfiguration -->
+
+
+    
+
+
+
+<!-- END Launch COnfiguration -->
+
+
+
+    <!-- Bright Edge integration footer : Start -->
+    
+        <div class="brightedge-wrapper">
+        <div class="wrap footerwrap">
+            <div class="be-ix-link-block">
+
+                    <div class="be-related-link-container"><div class="be-label">Also of Interest</div><ul class="be-list"><li class="be-list-item"><a class="be-related-link" href="https://www.fortinet.com/resources/cyberglossary/proxy-vs-vpn">Proxy vs. VPN: What Is the Difference?</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.fortinet.com/resources/cyberglossary/proxy-firewall">What is a Proxy Firewall?</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.fortinet.com/resources/cyberglossary/http-proxy">What Is HTTP Proxy?</a></li></ul></div>
+<!--
+   be_sdkms_pub:link-block; link-block_1.0.0.0; bodystr;
+   be_sdkms_date_modified:pn_tstr:Tue May 30 15:15:47 PDT 2023; pn_epoch:1685484947857;
+   be_sdkms_timer: 0;
+-->
+
+
+             </div>
+        </div>
+        </div>
+    
+    <!-- Bright Edge integration footer : End -->
+    
+
+
+<script type="text/javascript" src="/etc/designs/fortinet/clientlib-all.min.v3.js"></script>
+
+<!-- fortinetone menu js -->
+<script type="text/javascript" src="/etc/designs/fortinet/clientlib-extensions/js/forticloud-one.js"></script>
+
+
+    <div class="liveChat U06-Chat">
+
+
+
+
+
+
+    <div id="cta-mobile-btn"></div>
+
+
+<script type="text/javascript">
+
+
+            if ($.fn.Fortinet.LiveChat && $.fn.Fortinet.LiveChat.init !== undefined) {
+                $.fn.Fortinet.LiveChat.init({
+                  license: "4527051",
+                  demoLink: "/demo-center",
+                  demoText: "Free Demo",
+                  contactLink: "/corporate/about-us/contact-us",
+                  contactText: "Contact Us",
+                  threatsLink: "/corporate/about-us/request-a-quote",
+                  threatsText: "Threat Assessment",
+                  titleText: 'Welcome to Fortinet\'s LiveChat',
+                  tabChatText: 'Chat',
+                  tabDemoText: 'Free Demo',
+                  tabContactText: 'Contact Us',
+                  tabThreatsText: 'Request a quote',
+                  phoneLink: 'tel:14082357700',
+                  phoneText: '+1-408-235-7700',
+                  mailLink: 'mailto:info@fortinet.com',
+                  mailText: 'info@fortinet.com',
+                  socialLink: '#',
+                  socialText: 'Social',
+                  tabSocialText: 'Social'
+                });
+               // liveagent.init('https://d.la3-c1-ia2.salesforceliveagent.com/chat', '57234000000CbD2', '00D3000000001lK');
+            }
+
+</script>
+</div>
+
+
+
+
+
+    <div>
+</div>
+    <script type="text/javascript">
+                if (!('IntersectionObserver' in window)) {
+                    var script = document.createElement("script");
+                    script.src = "/etc/designs/fortinet/clientlib-extensions/js/intersection-observer.js";
+                    document.getElementsByTagName('head')[0].appendChild(script);
+                }
+
+        </script>
+    <!-- Lozad.js -->
+    <script src="/etc/designs/fortinet/clientlib-extensions/js/lozad.js"></script>
+    <script type="text/javascript">
+
+                // Initialize library to lazy load images
+                var observer = lozad('.lozad', {
+                threshold: 0.05,
+                load: function(el) {
+                    el.src = el.getAttribute("data-background-image");
+                    el && el.dataset && (el.dataset.src && el.setAttribute("src", el.dataset.src),
+                    el.dataset.bgimg && (el.style.backgroundImage = "url(" + el.dataset.bgimg + ")"))
+                }
+            })
+
+
+            observer.observe()
+
+
+        </script>
+
+        </body>
+    </html>
+
