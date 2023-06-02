@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bashlist CLI</title>
+      <link>/projects/bashlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bashlist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BookNexus API</title>
+      <link>/projects/booknexus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/booknexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Funtions</title>
+      <link>/articles/function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/function/</guid>
+      <description>Variadic Funtions This is a special form that allows another function to be called with multiple intergers, (which are known as variadic parameter) By using an ellipsis(&amp;hellip;) before the type name of the last parameter, you can as well indicate more parameters to take in.
+This is precisely how the fmt.Println function is implemented:
+func Println(a...interface{}) (n int, err error)
+Closure Closure allows the ability to create a function inside a function, a way to use is by writing a function that returns another function, which when called generate a sequence of numbers</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/articles/gobasic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/gobasic/</guid>
+      <description>Intro We all know Golang has been in his prime for about 5yrs and picking it up is a good choice after a long ride with Python Picking Golang was not an easy task for me or anyone coming from a dynamically typed language though I had an ideal basic of C but was poised with Golang or Rust Pitching myself to go with Golang and let see how rough the terrain is……</description>
+    </item>
+    
+    <item>
+      <title>Reverse proxy; as load balancer</title>
+      <link>/articles/proxy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/proxy/</guid>
+      <description>Proxy Let&amp;rsquo;s start by exploring what proxy is an infra that makes a request on behalf of a client(machine) For Context When you want to visit www.google.com, a proxy can be set up to handle sending the request on your behalf. As far as google.com is concerned the proxy is the client This does not expose the actual client to the server(Anonymous) Its use case is generally for security purposes(blacklisting certain websites) but also can be used for Logging &amp;amp; Caching also is a thing Reverse Proxy With Reverse proxy, which is the inverse(opposite) of proxy where the client doesn&amp;rsquo;t know the final destination of the request, this might be confusing For Context From the example given above with google.</description>
+    </item>
+    
+    <item>
+      <title>Sticky Note</title>
+      <link>/projects/sticky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sticky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tic Tac Toe</title>
+      <link>/projects/tic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/tic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather App</title>
+      <link>/projects/weather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/weather/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
