@@ -40,4 +40,45 @@ other nodes are left idle.
 There are types of load balancers that I'm not going to dive more into load balancing
 the main reason here is **using Golang to build a Reverse proxy as a load balancer**
 
-## Let's Explore
+## Let's explore
+
+Let's take the chunk bit by bit by building a reverse proxy first.
+
+```
+package main
+
+import (
+  "log"
+  "net/http"
+  "net/http/httputil"
+  "net/url"
+)
+
+func NewProxy(targetHost string) (*httputil.ReverseProxy, error) {
+  url, err := url.Parse(targetHost)
+  if err != nil {
+    return nil, err
+  }
+  return httputil.NewSingleHostReverseProxy(url), nil
+}
+
+func ProxyRequestHandler(proxy *httputil.ReverseProxy) func(htt.ResponseWriter, *http.Request) {
+  return func(w http.ResponseWriter, r *http.Request) {
+    proxy.ServeHTTP(w,r)
+  }
+
+}
+
+func main()  {
+  proxy, err := NewProxy("http://127.0.0.1:5000")
+  if err != nil {
+    panic(err)
+  }
+
+  http.HandleFunc("/", ProxyRequestHandler(proxy))
+  log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+The code is a reverse proxy server that listen on port 8080
+and fowards this to `port:5000`
