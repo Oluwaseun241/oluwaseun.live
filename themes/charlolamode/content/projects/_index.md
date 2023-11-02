@@ -1,4 +1,4 @@
 ---
 title: Projects
 ---
-This is the projects list page.
+Dive into a Showcase of Projects I've Worked On: Creativity Unleashed
