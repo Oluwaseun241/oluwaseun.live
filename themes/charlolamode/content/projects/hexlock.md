@@ -6,4 +6,5 @@ type:
 topic: project
 link: "https://github.com/Oluwaseun241/hexlock"
 image: "/images/hexlock"
+weight: 2
 ---

@@ -5,5 +5,5 @@ description: A simple Wallet Management System(Fintech)
 type: page
 topic: project
 link: "https://github.com/Oluwaseun241/wallet"
-
+weight: 1
 ---

@@ -4,6 +4,7 @@ type: page
 description: Experimenting with Golang
 topic: programming
 draft: false
+weight: 1
 ---
 
 ## Proxy
